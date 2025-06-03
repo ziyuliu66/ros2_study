@@ -1,5 +1,7 @@
 该项目为我为了学习ros2_control与gazebo所写的，因为初学代码水平较低，请大家见谅，也欢迎大家提出修改意见。
 
+该项目环境为ros2 humble
+
 食用方法：
   1：新开一个终端，使用命令：source install/setup.bash刷新一下bash
   2: 使用命令：ros2 launch robot_description_pkg robot_display.launch.py
