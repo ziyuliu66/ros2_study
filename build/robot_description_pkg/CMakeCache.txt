@@ -232,11 +232,59 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//The directory containing a CMake configuration file for Eigen3.
+Eigen3_DIR:PATH=/usr/share/eigen3/cmake
+
+//Path to a library.
+FastCDR_LIBRARY_DEBUG:FILEPATH=FastCDR_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+FastCDR_LIBRARY_RELEASE:FILEPATH=/opt/ros/humble/lib/libfastcdr.so
+
+//Path to a file.
+FastRTPS_INCLUDE_DIR:PATH=/opt/ros/humble/include
+
+//Path to a library.
+FastRTPS_LIBRARY_DEBUG:FILEPATH=FastRTPS_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+FastRTPS_LIBRARY_RELEASE:FILEPATH=/opt/ros/humble/lib/libfastrtps.so
+
+//Path to a library.
+OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
+
+//Path to a file.
+OPENSSL_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
+
+//Arguments to supply to pkg-config
+PKG_CONFIG_ARGN:STRING=
+
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
+
 //Path to a program.
 Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
 
 //Name of the computer/site where compile is being run
 SITE:STRING=lzy-virtual-machine
+
+//Path to a file.
+TINYXML2_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+TINYXML2_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libtinyxml2.so
+
+//The directory containing a CMake configuration file for TinyXML2.
+TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
+
+//Path to a library.
+_lib:FILEPATH=/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/lib/liblqr_controller.so
+
+//The directory containing a CMake configuration file for action_msgs.
+action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
@@ -307,6 +355,9 @@ ament_cmake_xmllint_DIR:PATH=/opt/ros/humble/share/ament_cmake_xmllint/cmake
 //Path to a program.
 ament_flake8_BIN:FILEPATH=/opt/ros/humble/bin/ament_flake8
 
+//The directory containing a CMake configuration file for ament_index_cpp.
+ament_index_cpp_DIR:PATH=/opt/ros/humble/share/ament_index_cpp/cmake
+
 //The directory containing a CMake configuration file for ament_lint_auto.
 ament_lint_auto_DIR:PATH=/opt/ros/humble/share/ament_lint_auto/cmake
 
@@ -322,6 +373,144 @@ ament_pep257_BIN:FILEPATH=/opt/ros/humble/bin/ament_pep257
 //Path to a program.
 ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
 
+//The directory containing a CMake configuration file for builtin_interfaces.
+builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake
+
+//The directory containing a CMake configuration file for class_loader.
+class_loader_DIR:PATH=/opt/ros/humble/share/class_loader/cmake
+
+//The directory containing a CMake configuration file for composition_interfaces.
+composition_interfaces_DIR:PATH=/opt/ros/humble/share/composition_interfaces/cmake
+
+//The directory containing a CMake configuration file for console_bridge.
+console_bridge_DIR:PATH=/usr/lib/x86_64-linux-gnu/console_bridge/cmake
+
+//The directory containing a CMake configuration file for control_msgs.
+control_msgs_DIR:PATH=/opt/ros/humble/share/control_msgs/cmake
+
+//The directory containing a CMake configuration file for controller_interface.
+controller_interface_DIR:PATH=/opt/ros/humble/share/controller_interface/cmake
+
+//The directory containing a CMake configuration file for eigen3_cmake_module.
+eigen3_cmake_module_DIR:PATH=/opt/ros/humble/share/eigen3_cmake_module/cmake
+
+//The directory containing a CMake configuration file for fastcdr.
+fastcdr_DIR:PATH=/opt/ros/humble/lib/cmake/fastcdr
+
+//The directory containing a CMake configuration file for fastrtps.
+fastrtps_DIR:PATH=/opt/ros/humble/share/fastrtps/cmake
+
+//The directory containing a CMake configuration file for fastrtps_cmake_module.
+fastrtps_cmake_module_DIR:PATH=/opt/ros/humble/share/fastrtps_cmake_module/cmake
+
+//The directory containing a CMake configuration file for fmt.
+fmt_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/fmt
+
+//The directory containing a CMake configuration file for foonathan_memory.
+foonathan_memory_DIR:PATH=/opt/ros/humble/lib/foonathan_memory/cmake
+
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/humble/share/geometry_msgs/cmake
+
+//The directory containing a CMake configuration file for hardware_interface.
+hardware_interface_DIR:PATH=/opt/ros/humble/share/hardware_interface/cmake
+
+//The directory containing a CMake configuration file for libstatistics_collector.
+libstatistics_collector_DIR:PATH=/opt/ros/humble/share/libstatistics_collector/cmake
+
+//The directory containing a CMake configuration file for libyaml_vendor.
+libyaml_vendor_DIR:PATH=/opt/ros/humble/share/libyaml_vendor/cmake
+
+//The directory containing a CMake configuration file for lifecycle_msgs.
+lifecycle_msgs_DIR:PATH=/opt/ros/humble/share/lifecycle_msgs/cmake
+
+//The directory containing a CMake configuration file for lqr_controller.
+lqr_controller_DIR:PATH=/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/cmake
+
+//The directory containing a CMake configuration file for message_filters.
+message_filters_DIR:PATH=/opt/ros/humble/share/message_filters/cmake
+
+//The directory containing a CMake configuration file for orocos_kdl.
+orocos_kdl_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/orocos_kdl
+
+//Path to a library.
+orocos_kdl_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/liborocos-kdl.so
+
+//The directory containing a CMake configuration file for orocos_kdl_vendor.
+orocos_kdl_vendor_DIR:PATH=/opt/ros/humble/share/orocos_kdl_vendor/cmake
+
+//The directory containing a CMake configuration file for parameter_traits.
+parameter_traits_DIR:PATH=/opt/ros/humble/share/parameter_traits/cmake
+
+//Path to a library.
+pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
+
+//Path to a library.
+pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
+
+//The directory containing a CMake configuration file for pluginlib.
+pluginlib_DIR:PATH=/opt/ros/humble/share/pluginlib/cmake
+
+//The directory containing a CMake configuration file for rcl.
+rcl_DIR:PATH=/opt/ros/humble/share/rcl/cmake
+
+//The directory containing a CMake configuration file for rcl_action.
+rcl_action_DIR:PATH=/opt/ros/humble/share/rcl_action/cmake
+
+//The directory containing a CMake configuration file for rcl_interfaces.
+rcl_interfaces_DIR:PATH=/opt/ros/humble/share/rcl_interfaces/cmake
+
+//The directory containing a CMake configuration file for rcl_lifecycle.
+rcl_lifecycle_DIR:PATH=/opt/ros/humble/share/rcl_lifecycle/cmake
+
+//The directory containing a CMake configuration file for rcl_logging_interface.
+rcl_logging_interface_DIR:PATH=/opt/ros/humble/share/rcl_logging_interface/cmake
+
+//The directory containing a CMake configuration file for rcl_logging_spdlog.
+rcl_logging_spdlog_DIR:PATH=/opt/ros/humble/share/rcl_logging_spdlog/cmake
+
+//The directory containing a CMake configuration file for rcl_yaml_param_parser.
+rcl_yaml_param_parser_DIR:PATH=/opt/ros/humble/share/rcl_yaml_param_parser/cmake
+
+//The directory containing a CMake configuration file for rclcpp.
+rclcpp_DIR:PATH=/opt/ros/humble/share/rclcpp/cmake
+
+//The directory containing a CMake configuration file for rclcpp_action.
+rclcpp_action_DIR:PATH=/opt/ros/humble/share/rclcpp_action/cmake
+
+//The directory containing a CMake configuration file for rclcpp_components.
+rclcpp_components_DIR:PATH=/opt/ros/humble/share/rclcpp_components/cmake
+
+//The directory containing a CMake configuration file for rclcpp_lifecycle.
+rclcpp_lifecycle_DIR:PATH=/opt/ros/humble/share/rclcpp_lifecycle/cmake
+
+//The directory containing a CMake configuration file for rcpputils.
+rcpputils_DIR:PATH=/opt/ros/humble/share/rcpputils/cmake
+
+//The directory containing a CMake configuration file for rcutils.
+rcutils_DIR:PATH=/opt/ros/humble/share/rcutils/cmake
+
+//The directory containing a CMake configuration file for realtime_tools.
+realtime_tools_DIR:PATH=/opt/ros/humble/share/realtime_tools/cmake
+
+//The directory containing a CMake configuration file for rmw.
+rmw_DIR:PATH=/opt/ros/humble/share/rmw/cmake
+
+//The directory containing a CMake configuration file for rmw_dds_common.
+rmw_dds_common_DIR:PATH=/opt/ros/humble/share/rmw_dds_common/cmake
+
+//The directory containing a CMake configuration file for rmw_fastrtps_cpp.
+rmw_fastrtps_cpp_DIR:PATH=/opt/ros/humble/share/rmw_fastrtps_cpp/cmake
+
+//The directory containing a CMake configuration file for rmw_fastrtps_shared_cpp.
+rmw_fastrtps_shared_cpp_DIR:PATH=/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake
+
+//The directory containing a CMake configuration file for rmw_implementation.
+rmw_implementation_DIR:PATH=/opt/ros/humble/share/rmw_implementation/cmake
+
+//The directory containing a CMake configuration file for rmw_implementation_cmake.
+rmw_implementation_cmake_DIR:PATH=/opt/ros/humble/share/rmw_implementation_cmake/cmake
+
 //Value Computed by CMake
 robot_description_pkg_BINARY_DIR:STATIC=/home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg
 
@@ -331,8 +520,110 @@ robot_description_pkg_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 robot_description_pkg_SOURCE_DIR:STATIC=/home/lzy/ros2_study/balance_car_ws/src/robot_description_pkg
 
+//The directory containing a CMake configuration file for robot_state_pub_interface.
+robot_state_pub_interface_DIR:PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake
+
+//The directory containing a CMake configuration file for rosgraph_msgs.
+rosgraph_msgs_DIR:PATH=/opt/ros/humble/share/rosgraph_msgs/cmake
+
+//The directory containing a CMake configuration file for rosidl_adapter.
+rosidl_adapter_DIR:PATH=/opt/ros/humble/share/rosidl_adapter/cmake
+
+//The directory containing a CMake configuration file for rosidl_cmake.
+rosidl_cmake_DIR:PATH=/opt/ros/humble/share/rosidl_cmake/cmake
+
+//The directory containing a CMake configuration file for rosidl_default_runtime.
+rosidl_default_runtime_DIR:PATH=/opt/ros/humble/share/rosidl_default_runtime/cmake
+
+//The directory containing a CMake configuration file for rosidl_generator_c.
+rosidl_generator_c_DIR:PATH=/opt/ros/humble/share/rosidl_generator_c/cmake
+
+//The directory containing a CMake configuration file for rosidl_generator_cpp.
+rosidl_generator_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_generator_cpp/cmake
+
+//The directory containing a CMake configuration file for rosidl_runtime_c.
+rosidl_runtime_c_DIR:PATH=/opt/ros/humble/share/rosidl_runtime_c/cmake
+
+//The directory containing a CMake configuration file for rosidl_runtime_cpp.
+rosidl_runtime_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_runtime_cpp/cmake
+
+//The directory containing a CMake configuration file for rosidl_typesupport_c.
+rosidl_typesupport_c_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_c/cmake
+
+//The directory containing a CMake configuration file for rosidl_typesupport_cpp.
+rosidl_typesupport_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_cpp/cmake
+
+//The directory containing a CMake configuration file for rosidl_typesupport_fastrtps_c.
+rosidl_typesupport_fastrtps_c_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/cmake
+
+//The directory containing a CMake configuration file for rosidl_typesupport_fastrtps_cpp.
+rosidl_typesupport_fastrtps_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/cmake
+
+//The directory containing a CMake configuration file for rosidl_typesupport_interface.
+rosidl_typesupport_interface_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_interface/cmake
+
+//The directory containing a CMake configuration file for rosidl_typesupport_introspection_c.
+rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_introspection_c/cmake
+
+//The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
+rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/cmake
+
+//The directory containing a CMake configuration file for rsl.
+rsl_DIR:PATH=/opt/ros/humble/share/rsl/cmake
+
+//The directory containing a CMake configuration file for sensor_msgs.
+sensor_msgs_DIR:PATH=/opt/ros/humble/share/sensor_msgs/cmake
+
+//The directory containing a CMake configuration file for spdlog.
+spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog
+
+//The directory containing a CMake configuration file for spdlog_vendor.
+spdlog_vendor_DIR:PATH=/opt/ros/humble/share/spdlog_vendor/cmake
+
+//The directory containing a CMake configuration file for statistics_msgs.
+statistics_msgs_DIR:PATH=/opt/ros/humble/share/statistics_msgs/cmake
+
+//The directory containing a CMake configuration file for std_msgs.
+std_msgs_DIR:PATH=/opt/ros/humble/share/std_msgs/cmake
+
+//The directory containing a CMake configuration file for std_srvs.
+std_srvs_DIR:PATH=/opt/ros/humble/share/std_srvs/cmake
+
+//The directory containing a CMake configuration file for tcb_span.
+tcb_span_DIR:PATH=/opt/ros/humble/share/tcb_span/cmake
+
+//The directory containing a CMake configuration file for tf2.
+tf2_DIR:PATH=/opt/ros/humble/share/tf2/cmake
+
+//The directory containing a CMake configuration file for tf2_geometry_msgs.
+tf2_geometry_msgs_DIR:PATH=/opt/ros/humble/share/tf2_geometry_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_msgs.
+tf2_msgs_DIR:PATH=/opt/ros/humble/share/tf2_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_ros.
+tf2_ros_DIR:PATH=/opt/ros/humble/share/tf2_ros/cmake
+
+//The directory containing a CMake configuration file for tinyxml2_vendor.
+tinyxml2_vendor_DIR:PATH=/opt/ros/humble/share/tinyxml2_vendor/cmake
+
+//The directory containing a CMake configuration file for tl_expected.
+tl_expected_DIR:PATH=/opt/ros/humble/share/tl_expected/cmake
+
+//The directory containing a CMake configuration file for tracetools.
+tracetools_DIR:PATH=/opt/ros/humble/share/tracetools/cmake
+
+//The directory containing a CMake configuration file for trajectory_msgs.
+trajectory_msgs_DIR:PATH=/opt/ros/humble/share/trajectory_msgs/cmake
+
+//The directory containing a CMake configuration file for unique_identifier_msgs.
+unique_identifier_msgs_DIR:PATH=/opt/ros/humble/share/unique_identifier_msgs/cmake
+
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint
+
+//The directory containing a CMake configuration file for yaml.
+yaml_DIR:PATH=/opt/ros/humble/cmake
 
 
 ########################
@@ -417,6 +708,10 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Test CMAKE_HAVE_LIBC_PTHREAD
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
+//Have include pthread.h
+CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/lzy/ros2_study/balance_car_ws/src/robot_description_pkg
@@ -482,10 +777,74 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Eigen3
+FIND_PACKAGE_MESSAGE_DETAILS_Eigen3:INTERNAL=[1][v3.4.0()]
+//Details about finding FastRTPS
+FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS:INTERNAL=[/opt/ros/humble/include][/opt/ros/humble/lib/libfastrtps.so;/opt/ros/humble/lib/libfastcdr.so][v()]
+//Details about finding OpenSSL
+FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][c ][v3.0.2()]
 //Details about finding Python3
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3][cfound components: Interpreter ][v3.10.12()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//ADVANCED property for variable: OPENSSL_CRYPTO_LIBRARY
+OPENSSL_CRYPTO_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENSSL_INCLUDE_DIR
+OPENSSL_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENSSL_SSL_LIBRARY
+OPENSSL_SSL_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PKG_CONFIG_ARGN
+PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: TINYXML2_INCLUDE_DIR
+TINYXML2_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: TINYXML2_LIBRARY
+TINYXML2_LIBRARY-ADVANCED:INTERNAL=1
+_OPENSSL_CFLAGS:INTERNAL=
+_OPENSSL_CFLAGS_I:INTERNAL=
+_OPENSSL_CFLAGS_OTHER:INTERNAL=
+_OPENSSL_FOUND:INTERNAL=1
+_OPENSSL_INCLUDEDIR:INTERNAL=/usr/include
+_OPENSSL_INCLUDE_DIRS:INTERNAL=
+_OPENSSL_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lssl;-lcrypto
+_OPENSSL_LDFLAGS_OTHER:INTERNAL=
+_OPENSSL_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+_OPENSSL_LIBRARIES:INTERNAL=ssl;crypto
+_OPENSSL_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+_OPENSSL_LIBS:INTERNAL=
+_OPENSSL_LIBS_L:INTERNAL=
+_OPENSSL_LIBS_OTHER:INTERNAL=
+_OPENSSL_LIBS_PATHS:INTERNAL=
+_OPENSSL_MODULE_NAME:INTERNAL=openssl
+_OPENSSL_PREFIX:INTERNAL=/usr
+_OPENSSL_STATIC_CFLAGS:INTERNAL=
+_OPENSSL_STATIC_CFLAGS_I:INTERNAL=
+_OPENSSL_STATIC_CFLAGS_OTHER:INTERNAL=
+_OPENSSL_STATIC_INCLUDE_DIRS:INTERNAL=
+_OPENSSL_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lssl;-lcrypto;-ldl;-pthread
+_OPENSSL_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread
+_OPENSSL_STATIC_LIBDIR:INTERNAL=
+_OPENSSL_STATIC_LIBRARIES:INTERNAL=ssl;crypto;dl
+_OPENSSL_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+_OPENSSL_STATIC_LIBS:INTERNAL=
+_OPENSSL_STATIC_LIBS_L:INTERNAL=
+_OPENSSL_STATIC_LIBS_OTHER:INTERNAL=
+_OPENSSL_STATIC_LIBS_PATHS:INTERNAL=
+_OPENSSL_VERSION:INTERNAL=3.0.2
+_OPENSSL_openssl_INCLUDEDIR:INTERNAL=
+_OPENSSL_openssl_LIBDIR:INTERNAL=
+_OPENSSL_openssl_PREFIX:INTERNAL=
+_OPENSSL_openssl_VERSION:INTERNAL=
 _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=0f3e53742e142b1d9e50e4ca5b901dd8
+__pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
+__pkg_config_checked__OPENSSL:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto
+pkgcfg_lib__OPENSSL_crypto-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib__OPENSSL_ssl
+pkgcfg_lib__OPENSSL_ssl-ADVANCED:INTERNAL=1
+prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
 

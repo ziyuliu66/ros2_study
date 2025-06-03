@@ -41,6 +41,7 @@
 #include "geometry_msgs/msg/twist.hpp"
 #include "tf2/LinearMath/Quaternion.h"
 #include "tf2/LinearMath/Matrix3x3.h"
+#include "robot_state_pub_interface/msg/robot_state.hpp"
 
 
 namespace lqr_controller
@@ -96,7 +97,7 @@ public:
   // TODO(anyone): replace the state and command message types
   using ControllerReferenceMsg = control_msgs::msg::JointJog;
   using ControllerModeSrvType = std_srvs::srv::SetBool;
-  using ControllerStateMsg = control_msgs::msg::JointJog;
+  using ControllerStateMsg = robot_state_pub_interface::msg::RobotState;
 
 protected:
   std::shared_ptr<lqr_controller::ParamListener> param_listener_;

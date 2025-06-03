@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_dependencies/cmake/ament_cmake_export_dependencies-extras.cmake.in
 
-set(_exported_dependencies "fmt;parameter_traits;rclcpp;rclcpp_lifecycle;rsl;tcb_span;tl_expected;control_msgs;controller_interface;hardware_interface;pluginlib;rclcpp;rclcpp_lifecycle;realtime_tools;std_srvs;tf2_ros;tf2;tf2_geometry_msgs;sensor_msgs;geometry_msgs")
+set(_exported_dependencies "fmt;parameter_traits;rclcpp;rclcpp_lifecycle;rsl;tcb_span;tl_expected;control_msgs;controller_interface;hardware_interface;pluginlib;rclcpp;rclcpp_lifecycle;realtime_tools;std_srvs;tf2_ros;tf2;tf2_geometry_msgs;sensor_msgs;geometry_msgs;robot_state_pub_interface")
 
 find_package(ament_cmake_libraries QUIET REQUIRED)
 

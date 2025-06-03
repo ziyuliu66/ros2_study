@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robot_state_pub_interface__py",
+		"source" : "/home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface/robot_state_pub_interface__py"
+	}
+}

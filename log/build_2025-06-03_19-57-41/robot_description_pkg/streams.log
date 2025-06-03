@@ -1,0 +1,80 @@
+[0.018s] Invoking command in '/home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg': AMENT_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/lqr_controller:/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:/home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/lib:/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lzy/ros2_study/balance_car_ws/src/robot_description_pkg -DCMAKE_INSTALL_PREFIX=/home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg
+[0.097s] -- The C compiler identification is GNU 11.4.0
+[0.159s] -- The CXX compiler identification is GNU 11.4.0
+[0.167s] -- Detecting C compiler ABI info
+[0.241s] -- Detecting C compiler ABI info - done
+[0.249s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.250s] -- Detecting C compile features
+[0.250s] -- Detecting C compile features - done
+[0.254s] -- Detecting CXX compiler ABI info
+[0.348s] -- Detecting CXX compiler ABI info - done
+[0.356s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.356s] -- Detecting CXX compile features
+[0.356s] -- Detecting CXX compile features - done
+[0.361s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.542s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.658s] -- Found lqr_controller: 0.0.0 (/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/cmake)
+[0.708s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.711s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.720s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.733s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.746s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.788s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.789s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.879s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.904s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.946s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.954s] -- Looking for pthread.h
+[1.063s] -- Looking for pthread.h - found
+[1.063s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.171s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.172s] -- Found Threads: TRUE  
+[1.518s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.519s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.520s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.542s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.641s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.642s] -- Added test 'lint_cmake' to check CMake code style
+[1.642s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.644s] -- Added test 'xmllint' to check XML markup files
+[1.646s] -- Configuring done
+[1.653s] -- Generating done
+[1.656s] -- Build files have been written to: /home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg
+[1.668s] Invoked command in '/home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg' returned '0': AMENT_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/lqr_controller:/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:/home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/lib:/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lzy/ros2_study/balance_car_ws/src/robot_description_pkg -DCMAKE_INSTALL_PREFIX=/home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg
+[1.670s] Invoking command in '/home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg': AMENT_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/lqr_controller:/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:/home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/lib:/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg -- -j8 -l8
+[1.714s] Invoked command in '/home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg' returned '0': AMENT_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/lqr_controller:/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:/home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/lib:/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg -- -j8 -l8
+[1.716s] Invoking command in '/home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg': AMENT_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/lqr_controller:/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:/home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/lib:/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg
+[1.723s] -- Install configuration: ""
+[1.723s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/config
+[1.723s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/config/balance_car_ros2_controller.yaml
+[1.723s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/config/rviz2_default_config.rviz
+[1.723s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/launch
+[1.724s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/launch/robot_display.launch.py
+[1.724s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf
+[1.724s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/common_inertia.xacro
+[1.724s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/base_link.urdf.xacro
+[1.725s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/sensor
+[1.725s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/sensor/imu_link.urdf.xacro
+[1.726s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/leg_link.urdf.xacro
+[1.726s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/balance_car.ros2_control.xacro
+[1.726s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/balance_car.urdf.xacro
+[1.726s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/actor
+[1.727s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/actor/wheel_link.urdf.xacro
+[1.727s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/plugins
+[1.728s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/plugins/gazebo_sensor_imu.xacro
+[1.729s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/ament_index/resource_index/package_run_dependencies/robot_description_pkg
+[1.729s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/ament_index/resource_index/parent_prefix_path/robot_description_pkg
+[1.729s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/environment/ament_prefix_path.sh
+[1.729s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/environment/ament_prefix_path.dsv
+[1.729s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/environment/path.sh
+[1.729s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/environment/path.dsv
+[1.729s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/local_setup.bash
+[1.729s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/local_setup.sh
+[1.729s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/local_setup.zsh
+[1.729s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/local_setup.dsv
+[1.729s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/package.dsv
+[1.729s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/ament_index/resource_index/packages/robot_description_pkg
+[1.730s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/cmake/robot_description_pkgConfig.cmake
+[1.730s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/cmake/robot_description_pkgConfig-version.cmake
+[1.730s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/package.xml
+[1.732s] Invoked command in '/home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg' returned '0': AMENT_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/lqr_controller:/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:/home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/lib:/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg

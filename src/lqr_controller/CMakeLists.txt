@@ -20,6 +20,7 @@ set(THIS_PACKAGE_INCLUDE_DEPENDS
   tf2_geometry_msgs
   sensor_msgs
   geometry_msgs
+  robot_state_pub_interface
 )
 
 find_package(ament_cmake REQUIRED)
@@ -33,6 +34,7 @@ find_package(tf2 REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)  # 添加这一行
 find_package(controller_interface REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(robot_state_pub_interface REQUIRED)
 
 foreach(Dependency IN ITEMS ${THIS_PACKAGE_INCLUDE_DEPENDS})
   find_package(${Dependency} REQUIRED)

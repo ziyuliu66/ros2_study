@@ -1,1 +1,1 @@
-control_msgs:controller_interface:geometry_msgs:hardware_interface:pluginlib:rclcpp:rclcpp_lifecycle:realtime_tools:sensor_msgs:std_srvs:tf2:tf2_geometry_msgs
+control_msgs:controller_interface:geometry_msgs:hardware_interface:pluginlib:rclcpp:rclcpp_lifecycle:realtime_tools:robot_state_pub_interface:sensor_msgs:std_srvs:tf2:tf2_geometry_msgs

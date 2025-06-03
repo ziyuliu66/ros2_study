@@ -1,0 +1,230 @@
+[0.013s] Invoking command in '/home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lzy/ros2_study/balance_car_ws/src/robot_state_pub_interface -DCMAKE_INSTALL_PREFIX=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface
+[0.077s] -- The C compiler identification is GNU 11.4.0
+[0.131s] -- The CXX compiler identification is GNU 11.4.0
+[0.141s] -- Detecting C compiler ABI info
+[0.206s] -- Detecting C compiler ABI info - done
+[0.215s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.216s] -- Detecting C compile features
+[0.216s] -- Detecting C compile features - done
+[0.221s] -- Detecting CXX compiler ABI info
+[0.309s] -- Detecting CXX compiler ABI info - done
+[0.315s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.316s] -- Detecting CXX compile features
+[0.316s] -- Detecting CXX compile features - done
+[0.325s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.479s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.567s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.595s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.599s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.608s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.619s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.636s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.664s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.672s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.941s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.315s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.450s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.472s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.473s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.497s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.497s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.497s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.497s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.516s] -- Found PythonExtra: .so  
+[1.576s] -- Added test 'lint_cmake' to check CMake code style
+[1.576s] -- Added test 'xmllint' to check XML markup files
+[1.581s] -- Configuring done
+[1.613s] -- Generating done
+[1.625s] -- Build files have been written to: /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface
+[1.635s] Invoked command in '/home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lzy/ros2_study/balance_car_ws/src/robot_state_pub_interface -DCMAKE_INSTALL_PREFIX=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface
+[1.638s] Invoking command in '/home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface -- -j8 -l8
+[1.677s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.690s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.700s] [  6%] Built target ament_cmake_python_copy_robot_state_pub_interface
+[2.017s] running egg_info
+[2.018s] creating robot_state_pub_interface.egg-info
+[2.018s] writing robot_state_pub_interface.egg-info/PKG-INFO
+[2.018s] writing dependency_links to robot_state_pub_interface.egg-info/dependency_links.txt
+[2.018s] writing top-level names to robot_state_pub_interface.egg-info/top_level.txt
+[2.019s] writing manifest file 'robot_state_pub_interface.egg-info/SOURCES.txt'
+[2.021s] reading manifest file 'robot_state_pub_interface.egg-info/SOURCES.txt'
+[2.022s] writing manifest file 'robot_state_pub_interface.egg-info/SOURCES.txt'
+[2.042s] [  9%] [32mBuilding C object CMakeFiles/robot_state_pub_interface__rosidl_generator_c.dir/rosidl_generator_c/robot_state_pub_interface/msg/detail/robot_state__functions.c.o[0m
+[2.043s] [  9%] Built target robot_state_pub_interface__cpp
+[2.058s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.058s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.061s] [ 16%] Built target ament_cmake_python_build_robot_state_pub_interface_egg
+[2.064s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.117s] [ 22%] [32m[1mLinking C shared library librobot_state_pub_interface__rosidl_generator_c.so[0m
+[2.172s] [ 22%] Built target robot_state_pub_interface__rosidl_generator_c
+[2.189s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.189s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.189s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.493s] [ 35%] [32mBuilding CXX object CMakeFiles/robot_state_pub_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_state_pub_interface/msg/robot_state__type_support.cpp.o[0m
+[2.496s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_state_pub_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_state_pub_interface/msg/detail/robot_state__type_support.cpp.o[0m
+[2.524s] [ 41%] [32mBuilding CXX object CMakeFiles/robot_state_pub_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_state_pub_interface/msg/detail/dds_fastrtps/robot_state__type_support.cpp.o[0m
+[2.582s] [ 45%] [32mBuilding CXX object CMakeFiles/robot_state_pub_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_state_pub_interface/msg/robot_state__type_support.cpp.o[0m
+[2.653s] [ 48%] [32m[1mLinking CXX shared library librobot_state_pub_interface__rosidl_typesupport_c.so[0m
+[2.656s] [ 51%] [32mBuilding C object CMakeFiles/robot_state_pub_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_state_pub_interface/msg/detail/robot_state__type_support.c.o[0m
+[2.733s] [ 54%] [32m[1mLinking C shared library librobot_state_pub_interface__rosidl_typesupport_introspection_c.so[0m
+[2.736s] [ 54%] Built target robot_state_pub_interface__rosidl_typesupport_c
+[2.764s] [ 58%] [32mBuilding CXX object CMakeFiles/robot_state_pub_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_state_pub_interface/msg/detail/robot_state__type_support_c.cpp.o[0m
+[2.791s] [ 58%] Built target robot_state_pub_interface__rosidl_typesupport_introspection_c
+[2.956s] [ 61%] [32m[1mLinking CXX shared library librobot_state_pub_interface__rosidl_typesupport_cpp.so[0m
+[3.017s] [ 61%] Built target robot_state_pub_interface__rosidl_typesupport_cpp
+[3.188s] [ 64%] [32m[1mLinking CXX shared library librobot_state_pub_interface__rosidl_typesupport_introspection_cpp.so[0m
+[3.223s] [ 67%] [32m[1mLinking CXX shared library librobot_state_pub_interface__rosidl_typesupport_fastrtps_c.so[0m
+[3.252s] [ 70%] [32m[1mLinking CXX shared library librobot_state_pub_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.295s] [ 70%] Built target robot_state_pub_interface__rosidl_typesupport_introspection_cpp
+[3.323s] [ 70%] Built target robot_state_pub_interface__rosidl_typesupport_fastrtps_c
+[3.361s] [ 70%] Built target robot_state_pub_interface__rosidl_typesupport_fastrtps_cpp
+[3.388s] [ 70%] Built target robot_state_pub_interface
+[3.414s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.729s] [ 74%] Built target robot_state_pub_interface__py
+[3.751s] [ 77%] [32mBuilding C object CMakeFiles/robot_state_pub_interface__rosidl_generator_py.dir/rosidl_generator_py/robot_state_pub_interface/msg/_robot_state_s.c.o[0m
+[3.863s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/robot_state_pub_interface/librobot_state_pub_interface__rosidl_generator_py.so[0m
+[3.908s] [ 80%] Built target robot_state_pub_interface__rosidl_generator_py
+[3.926s] [ 83%] [32mBuilding C object CMakeFiles/robot_state_pub_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_state_pub_interface/_robot_state_pub_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.928s] [ 90%] [32mBuilding C object CMakeFiles/robot_state_pub_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_state_pub_interface/_robot_state_pub_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.928s] [ 90%] [32mBuilding C object CMakeFiles/robot_state_pub_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_state_pub_interface/_robot_state_pub_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[4.042s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/robot_state_pub_interface/robot_state_pub_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.051s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/robot_state_pub_interface/robot_state_pub_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.053s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_state_pub_interface/robot_state_pub_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.094s] [100%] Built target robot_state_pub_interface__rosidl_typesupport_c__pyext
+[4.101s] [100%] Built target robot_state_pub_interface__rosidl_typesupport_fastrtps_c__pyext
+[4.102s] [100%] Built target robot_state_pub_interface__rosidl_typesupport_introspection_c__pyext
+[4.115s] Invoked command in '/home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface -- -j8 -l8
+[4.127s] Invoking command in '/home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface
+[4.134s] -- Install configuration: ""
+[4.134s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/ament_index/resource_index/rosidl_interfaces/robot_state_pub_interface
+[4.134s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface
+[4.135s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg
+[4.135s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail
+[4.135s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__struct.h
+[4.136s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__functions.h
+[4.136s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__functions.c
+[4.136s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__type_support.h
+[4.136s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/robot_state.h
+[4.136s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/rosidl_generator_c__visibility_control.h
+[4.136s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/environment/library_path.sh
+[4.136s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/environment/library_path.dsv
+[4.136s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_generator_c.so
+[4.137s] -- Set runtime path of "/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_generator_c.so" to ""
+[4.137s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface
+[4.137s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg
+[4.137s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail
+[4.138s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__rosidl_typesupport_fastrtps_c.h
+[4.138s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.138s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_typesupport_fastrtps_c.so
+[4.138s] -- Set runtime path of "/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[4.138s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface
+[4.138s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg
+[4.138s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail
+[4.139s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__struct.hpp
+[4.139s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__type_support.hpp
+[4.139s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__traits.hpp
+[4.139s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__builder.hpp
+[4.139s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/robot_state.hpp
+[4.139s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.139s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface
+[4.140s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg
+[4.140s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail
+[4.140s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/dds_fastrtps
+[4.140s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.140s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.140s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_typesupport_fastrtps_cpp.so
+[4.141s] -- Set runtime path of "/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.141s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface
+[4.141s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg
+[4.141s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail
+[4.141s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__type_support.c
+[4.141s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__rosidl_typesupport_introspection_c.h
+[4.141s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.142s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_typesupport_introspection_c.so
+[4.142s] -- Set runtime path of "/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_typesupport_introspection_c.so" to ""
+[4.142s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_typesupport_c.so
+[4.142s] -- Set runtime path of "/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_typesupport_c.so" to ""
+[4.143s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface
+[4.143s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg
+[4.143s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail
+[4.143s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__type_support.cpp
+[4.143s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__rosidl_typesupport_introspection_cpp.hpp
+[4.143s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_typesupport_introspection_cpp.so
+[4.144s] -- Set runtime path of "/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[4.144s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_typesupport_cpp.so
+[4.144s] -- Set runtime path of "/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_typesupport_cpp.so" to ""
+[4.144s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/environment/pythonpath.sh
+[4.144s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/environment/pythonpath.dsv
+[4.144s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface-0.0.0-py3.10.egg-info
+[4.145s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.145s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface-0.0.0-py3.10.egg-info/top_level.txt
+[4.145s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.145s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[4.145s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface
+[4.145s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/robot_state_pub_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.146s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/_robot_state_pub_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.146s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/_robot_state_pub_interface_s.ep.rosidl_typesupport_introspection_c.c
+[4.146s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/_robot_state_pub_interface_s.ep.rosidl_typesupport_c.c
+[4.146s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/robot_state_pub_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.147s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/msg
+[4.147s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/msg/_robot_state.py
+[4.147s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/msg/_robot_state_s.c
+[4.147s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/msg/__init__.py
+[4.148s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/librobot_state_pub_interface__rosidl_generator_py.so
+[4.148s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/robot_state_pub_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.148s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/__init__.py
+[4.182s] Listing '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface'...
+[4.182s] Compiling '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/__init__.py'...
+[4.182s] Listing '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/msg'...
+[4.182s] Compiling '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/msg/__init__.py'...
+[4.182s] Compiling '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/msg/_robot_state.py'...
+[4.186s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/robot_state_pub_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.187s] -- Set runtime path of "/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/robot_state_pub_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.187s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/robot_state_pub_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.187s] -- Set runtime path of "/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/robot_state_pub_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.187s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/robot_state_pub_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.188s] -- Set runtime path of "/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/robot_state_pub_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.188s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_generator_py.so
+[4.188s] -- Set runtime path of "/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_generator_py.so" to ""
+[4.188s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/msg/RobotState.idl
+[4.189s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/msg/RobotState.msg
+[4.189s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/ament_index/resource_index/package_run_dependencies/robot_state_pub_interface
+[4.189s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/ament_index/resource_index/parent_prefix_path/robot_state_pub_interface
+[4.189s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/environment/ament_prefix_path.sh
+[4.189s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/environment/ament_prefix_path.dsv
+[4.189s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/environment/path.sh
+[4.190s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/environment/path.dsv
+[4.190s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/local_setup.bash
+[4.190s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/local_setup.sh
+[4.190s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/local_setup.zsh
+[4.190s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/local_setup.dsv
+[4.191s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/package.dsv
+[4.191s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/ament_index/resource_index/packages/robot_state_pub_interface
+[4.191s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/export_robot_state_pub_interface__rosidl_generator_cExport.cmake
+[4.191s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/export_robot_state_pub_interface__rosidl_generator_cExport-noconfig.cmake
+[4.191s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/export_robot_state_pub_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[4.191s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/export_robot_state_pub_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.192s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/export_robot_state_pub_interface__rosidl_generator_cppExport.cmake
+[4.192s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/export_robot_state_pub_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.192s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/export_robot_state_pub_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.192s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interface__rosidl_typesupport_introspection_cExport.cmake
+[4.192s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.192s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interface__rosidl_typesupport_cExport.cmake
+[4.193s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interface__rosidl_typesupport_cExport-noconfig.cmake
+[4.193s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interface__rosidl_typesupport_introspection_cppExport.cmake
+[4.193s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.193s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interface__rosidl_typesupport_cppExport.cmake
+[4.193s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[4.193s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/export_robot_state_pub_interface__rosidl_generator_pyExport.cmake
+[4.194s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/export_robot_state_pub_interface__rosidl_generator_pyExport-noconfig.cmake
+[4.194s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/rosidl_cmake-extras.cmake
+[4.194s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.195s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.195s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[4.195s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/ament_cmake_export_targets-extras.cmake
+[4.195s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.195s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.195s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interfaceConfig.cmake
+[4.195s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interfaceConfig-version.cmake
+[4.195s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/package.xml
+[4.199s] Invoked command in '/home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface

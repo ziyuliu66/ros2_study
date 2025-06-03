@@ -163,7 +163,6 @@ controller_interface::CallbackReturn LqrController::on_configure(
 
   // TODO(anyone): Reserve memory in state publisher depending on the message type
   state_publisher_->lock();
-  state_publisher_->msg_.header.frame_id = params_.joints[0];
   state_publisher_->unlock();
 
   RCLCPP_INFO(get_node()->get_logger(), "configure successful");
@@ -310,8 +309,8 @@ controller_interface::return_type LqrController::update(
   if (state_publisher_ && state_publisher_->trylock())
   {
     state_publisher_->msg_.joint_names.clear();
-    state_publisher_->msg_.displacements.clear();
-    state_publisher_->msg_.velocities.clear();
+    state_publisher_->msg_.angles.clear();
+    state_publisher_->msg_.set_effort.clear();
 
     for(size_t i = 0; i < state_interfaces_.size(); ++i)
     {
@@ -319,11 +318,10 @@ controller_interface::return_type LqrController::update(
     }
     for(int j = 0; j < 3; ++j)
     {
-      state_publisher_->msg_.velocities.emplace_back(euler_angle[j]*rad2angle);
+      state_publisher_->msg_.angles.emplace_back(euler_angle[j]*rad2angle);
     }
-    state_publisher_->msg_.displacements.emplace_back(left_wheel_effort_);
-    state_publisher_->msg_.displacements.emplace_back(right_wheel_effort_);
-    state_publisher_->msg_.header.stamp = time;
+    state_publisher_->msg_.set_effort.emplace_back(left_wheel_effort_);
+    state_publisher_->msg_.set_effort.emplace_back(right_wheel_effort_);
     state_publisher_->unlockAndPublish();
   }
 

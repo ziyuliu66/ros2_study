@@ -725,6 +725,12 @@ CMakeFiles/lqr_controller.dir/src/lqr_controller.cpp.o: \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
+ /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/robot_state.hpp \
+ /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__struct.hpp \
+ /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__builder.hpp \
+ /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__traits.hpp \
+ /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__type_support.hpp \
+ /home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/controller_interface/helpers.hpp \
  /opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp \
  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
