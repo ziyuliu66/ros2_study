@@ -1,0 +1,22 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 30  # Hz
+    use_sim_time: true
+    robot_joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+      use_sim_time: true
+
+    lqr_effort_controller:
+      type: lqr_controller/LqrController
+
+lqr_effort_controller:
+  ros__parameters:
+    joints:
+      - left_wheel_joint
+      - right_wheel_joint
+    interface_name: effort
+    
+
+
+
+

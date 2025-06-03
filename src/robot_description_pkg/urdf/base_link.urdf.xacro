@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+<xacro:include filename="$(find robot_description_pkg)/urdf/common_inertia.xacro"/>
+
+    <xacro:macro name="base_link_xacro" params="xyz">
+
+        <link name="base_footprint_link"/>           
+
+        <link name="base_link">
+ 
+            <visual>
+               <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <box size="0.18 0.3 0.18"/>
+                </geometry>
+                <material name="green">
+                    <color rgba="0.0 1.0 1.0 0.5"/>
+                </material>
+            </visual>
+            <collision>
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <box size="0.18 0.3 0.18"/>
+                </geometry>
+                <material name="green">
+                    <color rgba="0.0 1.0 1.0 0.5"/>
+                </material>
+            </collision>
+
+            <xacro:box_inertia m="5.0" w="0.18" h="0.3" d="0.18"/>
+           
+        </link>
+
+        <joint name="base_link_joint" type="fixed">
+            <origin xyz="${xyz}" rpy="0.0 0.0 0.0"/>
+            <parent link="base_footprint_link"/>
+            <child link="base_link"/>
+        </joint>
+
+        <gazebo reference="base_link">
+	        <material>Gazebo/Green</material>
+        </gazebo>
+
+    </xacro:macro>
+
+    
+</robot>
+

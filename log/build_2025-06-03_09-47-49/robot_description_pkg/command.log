@@ -1,0 +1,4 @@
+Invoking command in '/home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg -- -j8 -l8
+Invoked command in '/home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg -- -j8 -l8
+Invoking command in '/home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg
+Invoked command in '/home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg

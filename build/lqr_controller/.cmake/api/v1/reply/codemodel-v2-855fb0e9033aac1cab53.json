@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-547761f6d410d45f118b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lqr_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lqr_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lqr_controller-0552c12edecae421f38e.json",
+					"name" : "lqr_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lqr_controller_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lqr_controller_parameters-d049652dc29fbe08062d.json",
+					"name" : "lqr_controller_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lqr_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lqr_controller_uninstall-2c5f66df76e364b5d104.json",
+					"name" : "lqr_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bd52fceefc9b5dac514d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lzy/ros2_study/balance_car_ws/build/lqr_controller",
+		"source" : "/home/lzy/ros2_study/balance_car_ws/src/lqr_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

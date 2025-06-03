@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
+<xacro:include filename="$(find robot_description_pkg)/urdf/common_inertia.xacro"/>
+
+    <xacro:macro name="leg_link_xacro" params="position xyz">
+
+        <link name="${position}_leg_link">
+
+            <visual>
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <box size="0.075 0.05 0.5"/>
+                </geometry>
+                <material name="white">
+                    <color rgba="1.0 1.0 1.0 1.0"/>
+                </material>
+            </visual>
+            <collision>
+                <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                <geometry>
+                    <box size="0.075 0.05 0.5"/>
+                </geometry>
+                <material name="white">
+                    <color rgba="1.0 1.0 1.0 1.0"/>
+                </material>
+            </collision>
+
+            <xacro:box_inertia m="0.4" w="0.075" h="0.05" d="0.5"/>
+
+        </link>
+
+        <joint name="${position}_leg_joint" type="fixed">
+            <origin xyz="${xyz}" rpy="0.0 0.0 0.0"/>
+            <parent link="base_link"/>
+            <child link="${position}_leg_link"/>
+        </joint>
+
+    </xacro:macro>
+
+
+</robot>
