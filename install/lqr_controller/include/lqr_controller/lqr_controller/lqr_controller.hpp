@@ -139,6 +139,8 @@ private:
 
   float v_set_ = 0.0;
   float z_set_ = 0.0;
+
+  float K_[4] = {-22.6130,-4.5769,-3.4641,-3.9337};//theta d_theta x d_x
 };
 
 }  // namespace lqr_controller

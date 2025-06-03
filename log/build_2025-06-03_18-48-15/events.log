@@ -1,0 +1,359 @@
+[0.000000] (-) TimerEvent: {}
+[0.000860] (lqr_controller) JobQueued: {'identifier': 'lqr_controller', 'dependencies': OrderedDict()}
+[0.001202] (robot_description_pkg) JobQueued: {'identifier': 'robot_description_pkg', 'dependencies': OrderedDict([('lqr_controller', '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller')])}
+[0.001256] (lqr_controller) JobStarted: {'identifier': 'lqr_controller'}
+[0.008206] (lqr_controller) JobProgress: {'identifier': 'lqr_controller', 'progress': 'cmake'}
+[0.009647] (lqr_controller) JobProgress: {'identifier': 'lqr_controller', 'progress': 'build'}
+[0.009708] (lqr_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lzy/ros2_study/balance_car_ws/build/lqr_controller', '--', '-j8', '-l8'], 'cwd': '/home/lzy/ros2_study/balance_car_ws/build/lqr_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lzy'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/lzy/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/194/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lzy'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.100.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/194/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/lzy/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/194/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/194/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1349'), ('BUNDLED_DEBUGPY_PATH', '/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6e649dabfeb41e5ace1cf2d5683ecb0e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lzy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'lzy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lzy-virtual-machine:@/tmp/.ICE-unix/1349,unix/lzy-virtual-machine:/tmp/.ICE-unix/1349'), ('GTK_EXE_PREFIX', '/snap/code/194/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ad553985_8484_432e_9ba2_830b1c45d278'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/194/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-99f25a7bc1bddc50.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/lzy/snap/code/194/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UVMF72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bbbc6a21f0.sock'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/lzy/snap/code/194/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lzy/ros2_study/balance_car_ws/build/lqr_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6e649dabfeb41e5ace1cf2d5683ecb0e'), ('XDG_DATA_DIRS', '/home/lzy/snap/code/194/.local/share:/home/lzy/snap/code/194:/snap/code/194/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.065602] (lqr_controller) StdoutLine: {'line': b'[ 50%] Built target lqr_controller_parameters\n'}
+[0.092580] (lqr_controller) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lqr_controller.dir/src/lqr_controller.cpp.o\x1b[0m\n'}
+[0.099622] (-) TimerEvent: {}
+[0.202927] (-) TimerEvent: {}
+[0.303544] (-) TimerEvent: {}
+[0.404448] (-) TimerEvent: {}
+[0.505464] (-) TimerEvent: {}
+[0.605941] (-) TimerEvent: {}
+[0.706892] (-) TimerEvent: {}
+[0.807669] (-) TimerEvent: {}
+[0.908609] (-) TimerEvent: {}
+[1.009380] (-) TimerEvent: {}
+[1.109881] (-) TimerEvent: {}
+[1.211086] (-) TimerEvent: {}
+[1.312408] (-) TimerEvent: {}
+[1.413419] (-) TimerEvent: {}
+[1.514022] (-) TimerEvent: {}
+[1.614534] (-) TimerEvent: {}
+[1.715789] (-) TimerEvent: {}
+[1.816520] (-) TimerEvent: {}
+[1.917594] (-) TimerEvent: {}
+[2.019182] (-) TimerEvent: {}
+[2.120615] (-) TimerEvent: {}
+[2.221315] (-) TimerEvent: {}
+[2.322038] (-) TimerEvent: {}
+[2.422579] (-) TimerEvent: {}
+[2.523336] (-) TimerEvent: {}
+[2.623973] (-) TimerEvent: {}
+[2.705971] (lqr_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28\x1b[m\x1b[K,\n'}
+[2.706288] (lqr_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:20\x1b[m\x1b[K:\n'}
+[2.706375] (lqr_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp:1:145:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: #include "lqr_controller_parameters.hpp" is deprecated. Use #include <lqr_controller/lqr_controller_parameters.hpp> instead.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.706447] (lqr_controller) StderrLine: {'line': b'    1 | #pragma message("#include \\"lqr_controller_parameters.hpp\\" is deprecated. Use #include <lqr_controller/lqr_controller_parameters.hpp> instead."\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[2.706513] (lqr_controller) StderrLine: {'line': b'      |                                                                                                                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.724641] (-) TimerEvent: {}
+[2.797393] (lqr_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp:31\x1b[m\x1b[K,\n'}
+[2.797678] (lqr_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28\x1b[m\x1b[K,\n'}
+[2.797749] (lqr_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:20\x1b[m\x1b[K:\n'}
+[2.797814] (lqr_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/validate_lqr_controller_parameters.hpp:29:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing Result = class tl::expected<void, std::__cxx11::basic_string<char> >\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use tl::expected<void, std::string> for return instead. `#include <tl_expected/expected.hpp>`. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.797885] (lqr_controller) StderrLine: {'line': b'   29 | Result forbidden_interface_name_prefix(rclcpp::Parameter const & parameter\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[2.797953] (lqr_controller) StderrLine: {'line': b'      |                                                                           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.798066] (lqr_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp:25\x1b[m\x1b[K,\n'}
+[2.798140] (lqr_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28\x1b[m\x1b[K,\n'}
+[2.798209] (lqr_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:20\x1b[m\x1b[K:\n'}
+[2.798271] (lqr_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.798333] (lqr_controller) StderrLine: {'line': b'   37 | using \x1b[01;36m\x1b[KResult\x1b[m\x1b[K\n'}
+[2.798398] (lqr_controller) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.798759] (lqr_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp:31\x1b[m\x1b[K,\n'}
+[2.798892] (lqr_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28\x1b[m\x1b[K,\n'}
+[2.799031] (lqr_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:20\x1b[m\x1b[K:\n'}
+[2.799121] (lqr_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/validate_lqr_controller_parameters.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kparameter_traits::Result parameter_traits::forbidden_interface_name_prefix(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.799164] (lqr_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/validate_lqr_controller_parameters.hpp:35:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktl::expected<void, std::__cxx11::basic_string<char> > parameter_traits::ERROR(const string&, Args ...) [with Args = {}; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: When returning tl::expected<void, std::string> you can call fmt::format directly. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.799228] (lqr_controller) StderrLine: {'line': b'   35 |     return \x1b[01;35m\x1b[KERROR("\'interface_name\' parameter can not start with \'blup_\'")\x1b[m\x1b[K;\n'}
+[2.799279] (lqr_controller) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.799385] (lqr_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp:25\x1b[m\x1b[K,\n'}
+[2.799461] (lqr_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28\x1b[m\x1b[K,\n'}
+[2.799502] (lqr_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:20\x1b[m\x1b[K:\n'}
+[2.799543] (lqr_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:46:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.799582] (lqr_controller) StderrLine: {'line': b'   46 | \x1b[01;36m\x1b[KERROR\x1b[m\x1b[K(const std::string& format, Args... args)\n'}
+[2.799621] (lqr_controller) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.799660] (lqr_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp:31\x1b[m\x1b[K,\n'}
+[2.799699] (lqr_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28\x1b[m\x1b[K,\n'}
+[2.799816] (lqr_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:20\x1b[m\x1b[K:\n'}
+[2.799861] (lqr_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/validate_lqr_controller_parameters.hpp:38:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kparameter_traits::OK\x1b[m\x1b[K\xe2\x80\x99 is deprecated: When returning tl::expected<void, std::string> default construct for OK with `{}`. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.799903] (lqr_controller) StderrLine: {'line': b'   38 |   return \x1b[01;35m\x1b[KOK\x1b[m\x1b[K;\n'}
+[2.799941] (lqr_controller) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.799979] (lqr_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp:25\x1b[m\x1b[K,\n'}
+[2.800039] (lqr_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28\x1b[m\x1b[K,\n'}
+[2.800086] (lqr_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:20\x1b[m\x1b[K:\n'}
+[2.800251] (lqr_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:51:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.800297] (lqr_controller) StderrLine: {'line': b'   51 | auto static \x1b[01;36m\x1b[KOK\x1b[m\x1b[K\n'}
+[2.800334] (lqr_controller) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.824801] (lqr_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:32\x1b[m\x1b[K,\n'}
+[2.825240] (-) TimerEvent: {}
+[2.825445] (lqr_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:20\x1b[m\x1b[K:\n'}
+[2.825637] (lqr_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:\x1b[m\x1b[K At global scope:\n'}
+[2.825770] (lqr_controller) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.\x1b[m\x1b[K\xe2\x80\x99\n"}
+[2.825864] (lqr_controller) StderrLine: {'line': b'   22 |   "This header include is deprecated. Please update your code to use \'realtime_buffer.hpp\' header."\x1b[01;36m\x1b[K)\x1b[m\x1b[K  //NOLINT\n'}
+[2.825927] (lqr_controller) StderrLine: {'line': b'      |                                                                                                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.826709] (lqr_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:33\x1b[m\x1b[K,\n'}
+[2.826857] (lqr_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:20\x1b[m\x1b[K:\n'}
+[2.826907] (lqr_controller) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.\x1b[m\x1b[K\xe2\x80\x99\n"}
+[2.826960] (lqr_controller) StderrLine: {'line': b'   22 |   "This header include is deprecated. Please update your code to use \'realtime_publisher.hpp\' header."\x1b[01;36m\x1b[K)\x1b[m\x1b[K  //NOLINT\n'}
+[2.826999] (lqr_controller) StderrLine: {'line': b'      |                                                                                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.926032] (-) TimerEvent: {}
+[3.026728] (-) TimerEvent: {}
+[3.127618] (-) TimerEvent: {}
+[3.152710] (lqr_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual controller_interface::return_type lqr_controller::LqrController::update(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.153181] (lqr_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:279:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcurrent_ref\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.153363] (lqr_controller) StderrLine: {'line': b'  279 |   auto \x1b[01;35m\x1b[Kcurrent_ref\x1b[m\x1b[K = input_ref_.readFromRT();\n'}
+[3.153446] (lqr_controller) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.153530] (lqr_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:281:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Keuler_angle_velocity\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.153602] (lqr_controller) StderrLine: {'line': b'  281 |   float \x1b[01;35m\x1b[Keuler_angle_velocity\x1b[m\x1b[K[3] = {euler_roll_velocity_,euler_pitch_velocity_,euler_yaw_velocity_};\n'}
+[3.153673] (lqr_controller) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.153740] (lqr_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:282:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kwheel_velocity\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.153820] (lqr_controller) StderrLine: {'line': b'  282 |   float \x1b[01;35m\x1b[Kwheel_velocity\x1b[m\x1b[K[2] = {left_wheel_velocity_,left_wheel_velocity_};\n'}
+[3.153895] (lqr_controller) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.228431] (-) TimerEvent: {}
+[3.329052] (-) TimerEvent: {}
+[3.429982] (-) TimerEvent: {}
+[3.531113] (-) TimerEvent: {}
+[3.632154] (-) TimerEvent: {}
+[3.732898] (-) TimerEvent: {}
+[3.833529] (-) TimerEvent: {}
+[3.934427] (-) TimerEvent: {}
+[4.035447] (-) TimerEvent: {}
+[4.136300] (-) TimerEvent: {}
+[4.237269] (-) TimerEvent: {}
+[4.338137] (-) TimerEvent: {}
+[4.438769] (-) TimerEvent: {}
+[4.539780] (-) TimerEvent: {}
+[4.640363] (-) TimerEvent: {}
+[4.741443] (-) TimerEvent: {}
+[4.841928] (-) TimerEvent: {}
+[4.942475] (-) TimerEvent: {}
+[5.043427] (-) TimerEvent: {}
+[5.144325] (-) TimerEvent: {}
+[5.245302] (-) TimerEvent: {}
+[5.345783] (-) TimerEvent: {}
+[5.446614] (-) TimerEvent: {}
+[5.547414] (-) TimerEvent: {}
+[5.647895] (-) TimerEvent: {}
+[5.748342] (-) TimerEvent: {}
+[5.849461] (-) TimerEvent: {}
+[5.950006] (-) TimerEvent: {}
+[6.050858] (-) TimerEvent: {}
+[6.151493] (-) TimerEvent: {}
+[6.252446] (-) TimerEvent: {}
+[6.353093] (-) TimerEvent: {}
+[6.454128] (-) TimerEvent: {}
+[6.554943] (-) TimerEvent: {}
+[6.655768] (-) TimerEvent: {}
+[6.756403] (-) TimerEvent: {}
+[6.857119] (-) TimerEvent: {}
+[6.958099] (-) TimerEvent: {}
+[7.059214] (-) TimerEvent: {}
+[7.159728] (-) TimerEvent: {}
+[7.260588] (-) TimerEvent: {}
+[7.361207] (-) TimerEvent: {}
+[7.463035] (-) TimerEvent: {}
+[7.563998] (-) TimerEvent: {}
+[7.665260] (-) TimerEvent: {}
+[7.765901] (-) TimerEvent: {}
+[7.866428] (-) TimerEvent: {}
+[7.967349] (-) TimerEvent: {}
+[8.068139] (-) TimerEvent: {}
+[8.168921] (-) TimerEvent: {}
+[8.269852] (-) TimerEvent: {}
+[8.370433] (-) TimerEvent: {}
+[8.470959] (-) TimerEvent: {}
+[8.571566] (-) TimerEvent: {}
+[8.672243] (-) TimerEvent: {}
+[8.772802] (-) TimerEvent: {}
+[8.873581] (-) TimerEvent: {}
+[8.974242] (-) TimerEvent: {}
+[9.074783] (-) TimerEvent: {}
+[9.175803] (-) TimerEvent: {}
+[9.276305] (-) TimerEvent: {}
+[9.377031] (-) TimerEvent: {}
+[9.477523] (-) TimerEvent: {}
+[9.578055] (-) TimerEvent: {}
+[9.678791] (-) TimerEvent: {}
+[9.779321] (-) TimerEvent: {}
+[9.880065] (-) TimerEvent: {}
+[9.980959] (-) TimerEvent: {}
+[10.081475] (-) TimerEvent: {}
+[10.182021] (-) TimerEvent: {}
+[10.282822] (-) TimerEvent: {}
+[10.383495] (-) TimerEvent: {}
+[10.484610] (-) TimerEvent: {}
+[10.585220] (-) TimerEvent: {}
+[10.685719] (-) TimerEvent: {}
+[10.786490] (-) TimerEvent: {}
+[10.887146] (-) TimerEvent: {}
+[10.987682] (-) TimerEvent: {}
+[11.088685] (-) TimerEvent: {}
+[11.189846] (-) TimerEvent: {}
+[11.291174] (-) TimerEvent: {}
+[11.391975] (-) TimerEvent: {}
+[11.492413] (-) TimerEvent: {}
+[11.593104] (-) TimerEvent: {}
+[11.694150] (-) TimerEvent: {}
+[11.794855] (-) TimerEvent: {}
+[11.895884] (-) TimerEvent: {}
+[11.996297] (-) TimerEvent: {}
+[12.096793] (-) TimerEvent: {}
+[12.197763] (-) TimerEvent: {}
+[12.298857] (-) TimerEvent: {}
+[12.399961] (-) TimerEvent: {}
+[12.500659] (-) TimerEvent: {}
+[12.601492] (-) TimerEvent: {}
+[12.702332] (-) TimerEvent: {}
+[12.802790] (-) TimerEvent: {}
+[12.903380] (-) TimerEvent: {}
+[13.003931] (-) TimerEvent: {}
+[13.104528] (-) TimerEvent: {}
+[13.205553] (-) TimerEvent: {}
+[13.306121] (-) TimerEvent: {}
+[13.406882] (-) TimerEvent: {}
+[13.507712] (-) TimerEvent: {}
+[13.608343] (-) TimerEvent: {}
+[13.709295] (-) TimerEvent: {}
+[13.809937] (-) TimerEvent: {}
+[13.910837] (-) TimerEvent: {}
+[14.011785] (-) TimerEvent: {}
+[14.112474] (-) TimerEvent: {}
+[14.213721] (-) TimerEvent: {}
+[14.314177] (-) TimerEvent: {}
+[14.415046] (-) TimerEvent: {}
+[14.516008] (-) TimerEvent: {}
+[14.616539] (-) TimerEvent: {}
+[14.717546] (-) TimerEvent: {}
+[14.818084] (-) TimerEvent: {}
+[14.918895] (-) TimerEvent: {}
+[15.019613] (-) TimerEvent: {}
+[15.120579] (-) TimerEvent: {}
+[15.221064] (-) TimerEvent: {}
+[15.322288] (-) TimerEvent: {}
+[15.422856] (-) TimerEvent: {}
+[15.523670] (-) TimerEvent: {}
+[15.624345] (-) TimerEvent: {}
+[15.724846] (-) TimerEvent: {}
+[15.825340] (-) TimerEvent: {}
+[15.926269] (-) TimerEvent: {}
+[16.026998] (-) TimerEvent: {}
+[16.128224] (-) TimerEvent: {}
+[16.228594] (-) TimerEvent: {}
+[16.329104] (-) TimerEvent: {}
+[16.429745] (-) TimerEvent: {}
+[16.530739] (-) TimerEvent: {}
+[16.631551] (-) TimerEvent: {}
+[16.732200] (-) TimerEvent: {}
+[16.832759] (-) TimerEvent: {}
+[16.933600] (-) TimerEvent: {}
+[17.034558] (-) TimerEvent: {}
+[17.135320] (-) TimerEvent: {}
+[17.236034] (-) TimerEvent: {}
+[17.336954] (-) TimerEvent: {}
+[17.437995] (-) TimerEvent: {}
+[17.538763] (-) TimerEvent: {}
+[17.639783] (-) TimerEvent: {}
+[17.740661] (-) TimerEvent: {}
+[17.841324] (-) TimerEvent: {}
+[17.942137] (-) TimerEvent: {}
+[18.042739] (-) TimerEvent: {}
+[18.143997] (-) TimerEvent: {}
+[18.244548] (-) TimerEvent: {}
+[18.345403] (-) TimerEvent: {}
+[18.446224] (-) TimerEvent: {}
+[18.546801] (-) TimerEvent: {}
+[18.647748] (-) TimerEvent: {}
+[18.748480] (-) TimerEvent: {}
+[18.849281] (-) TimerEvent: {}
+[18.940771] (lqr_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library liblqr_controller.so\x1b[0m\n'}
+[18.949551] (-) TimerEvent: {}
+[19.050386] (-) TimerEvent: {}
+[19.151189] (-) TimerEvent: {}
+[19.253051] (-) TimerEvent: {}
+[19.353757] (-) TimerEvent: {}
+[19.454354] (-) TimerEvent: {}
+[19.555033] (-) TimerEvent: {}
+[19.655942] (-) TimerEvent: {}
+[19.756926] (-) TimerEvent: {}
+[19.857457] (-) TimerEvent: {}
+[19.958429] (-) TimerEvent: {}
+[20.059280] (-) TimerEvent: {}
+[20.159975] (-) TimerEvent: {}
+[20.261818] (-) TimerEvent: {}
+[20.362761] (-) TimerEvent: {}
+[20.395657] (lqr_controller) StdoutLine: {'line': b'[100%] Built target lqr_controller\n'}
+[20.407559] (lqr_controller) CommandEnded: {'returncode': 0}
+[20.408426] (lqr_controller) JobProgress: {'identifier': 'lqr_controller', 'progress': 'install'}
+[20.417324] (lqr_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lzy/ros2_study/balance_car_ws/build/lqr_controller'], 'cwd': '/home/lzy/ros2_study/balance_car_ws/build/lqr_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lzy'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/lzy/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/194/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lzy'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.100.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/194/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/lzy/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/194/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/194/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1349'), ('BUNDLED_DEBUGPY_PATH', '/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6e649dabfeb41e5ace1cf2d5683ecb0e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lzy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'lzy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lzy-virtual-machine:@/tmp/.ICE-unix/1349,unix/lzy-virtual-machine:/tmp/.ICE-unix/1349'), ('GTK_EXE_PREFIX', '/snap/code/194/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ad553985_8484_432e_9ba2_830b1c45d278'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/194/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-99f25a7bc1bddc50.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/lzy/snap/code/194/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UVMF72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bbbc6a21f0.sock'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/lzy/snap/code/194/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lzy/ros2_study/balance_car_ws/build/lqr_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6e649dabfeb41e5ace1cf2d5683ecb0e'), ('XDG_DATA_DIRS', '/home/lzy/snap/code/194/.local/share:/home/lzy/snap/code/194:/snap/code/194/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[20.424674] (lqr_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.424908] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller\n'}
+[20.425078] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller/validate_lqr_controller_parameters.hpp\n'}
+[20.425148] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller/lqr_controller_parameters.hpp\n'}
+[20.425250] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/lqr_controller.xml\n'}
+[20.425435] (lqr_controller) StdoutLine: {'line': b'-- Installing: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/lib/liblqr_controller.so\n'}
+[20.446653] (lqr_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/lib/liblqr_controller.so" to ""\n'}
+[20.447249] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller\n'}
+[20.447366] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller/lqr_controller\n'}
+[20.447438] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller/lqr_controller/lqr_controller.hpp\n'}
+[20.447510] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller/lqr_controller/validate_lqr_controller_parameters.hpp\n'}
+[20.447596] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller/lqr_controller/visibility_control.h\n'}
+[20.448113] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/environment/library_path.sh\n'}
+[20.448344] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/environment/library_path.dsv\n'}
+[20.448482] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/ament_index/resource_index/package_run_dependencies/lqr_controller\n'}
+[20.448621] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/ament_index/resource_index/parent_prefix_path/lqr_controller\n'}
+[20.448732] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/environment/ament_prefix_path.sh\n'}
+[20.448951] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/environment/ament_prefix_path.dsv\n'}
+[20.449042] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/environment/path.sh\n'}
+[20.449110] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/environment/path.dsv\n'}
+[20.449173] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/local_setup.bash\n'}
+[20.449235] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/local_setup.sh\n'}
+[20.449296] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/local_setup.zsh\n'}
+[20.449364] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/local_setup.dsv\n'}
+[20.449422] (lqr_controller) StdoutLine: {'line': b'-- Installing: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/package.dsv\n'}
+[20.449476] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/ament_index/resource_index/packages/lqr_controller\n'}
+[20.449516] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/lqr_controller\n'}
+[20.449571] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.449626] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.449664] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.449719] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/cmake/lqr_controllerConfig.cmake\n'}
+[20.449772] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/cmake/lqr_controllerConfig-version.cmake\n'}
+[20.449879] (lqr_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/package.xml\n'}
+[20.451376] (lqr_controller) CommandEnded: {'returncode': 0}
+[20.463975] (-) TimerEvent: {}
+[20.478318] (lqr_controller) JobEnded: {'identifier': 'lqr_controller', 'rc': 0}
+[20.480539] (robot_description_pkg) JobStarted: {'identifier': 'robot_description_pkg'}
+[20.493225] (robot_description_pkg) JobProgress: {'identifier': 'robot_description_pkg', 'progress': 'cmake'}
+[20.494300] (robot_description_pkg) JobProgress: {'identifier': 'robot_description_pkg', 'progress': 'build'}
+[20.495312] (robot_description_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg', '--', '-j8', '-l8'], 'cwd': '/home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lzy'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/lzy/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/194/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lzy'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.100.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/194/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/lzy/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/194/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/194/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1349'), ('BUNDLED_DEBUGPY_PATH', '/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6e649dabfeb41e5ace1cf2d5683ecb0e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lzy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'lzy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lzy-virtual-machine:@/tmp/.ICE-unix/1349,unix/lzy-virtual-machine:/tmp/.ICE-unix/1349'), ('GTK_EXE_PREFIX', '/snap/code/194/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ad553985_8484_432e_9ba2_830b1c45d278'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/194/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-99f25a7bc1bddc50.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/lzy/snap/code/194/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UVMF72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bbbc6a21f0.sock'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/lzy/snap/code/194/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6e649dabfeb41e5ace1cf2d5683ecb0e'), ('XDG_DATA_DIRS', '/home/lzy/snap/code/194/.local/share:/home/lzy/snap/code/194:/snap/code/194/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller:/opt/ros/humble')]), 'shell': False}
+[20.543889] (robot_description_pkg) CommandEnded: {'returncode': 0}
+[20.545770] (robot_description_pkg) JobProgress: {'identifier': 'robot_description_pkg', 'progress': 'install'}
+[20.546019] (robot_description_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg'], 'cwd': '/home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'lzy'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/lzy/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/194/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lzy'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.100.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/194/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/lzy/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/194/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/194/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1349'), ('BUNDLED_DEBUGPY_PATH', '/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6e649dabfeb41e5ace1cf2d5683ecb0e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lzy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'lzy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/lzy-virtual-machine:@/tmp/.ICE-unix/1349,unix/lzy-virtual-machine:/tmp/.ICE-unix/1349'), ('GTK_EXE_PREFIX', '/snap/code/194/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ad553985_8484_432e_9ba2_830b1c45d278'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/194/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lzy/.vscode/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-99f25a7bc1bddc50.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/lzy/snap/code/194/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UVMF72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bbbc6a21f0.sock'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/lzy/snap/code/194/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6e649dabfeb41e5ace1cf2d5683ecb0e'), ('XDG_DATA_DIRS', '/home/lzy/snap/code/194/.local/share:/home/lzy/snap/code/194:/snap/code/194/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller:/opt/ros/humble')]), 'shell': False}
+[20.555019] (robot_description_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.555355] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/config\n'}
+[20.555466] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/config/balance_car_ros2_controller.yaml\n'}
+[20.555579] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/config/rviz2_default_config.rviz\n'}
+[20.555702] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/launch\n'}
+[20.555810] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/launch/robot_display.launch.py\n'}
+[20.555956] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf\n'}
+[20.556230] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/common_inertia.xacro\n'}
+[20.556408] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/base_link.urdf.xacro\n'}
+[20.556572] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/sensor\n'}
+[20.556658] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/sensor/imu_link.urdf.xacro\n'}
+[20.556738] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/leg_link.urdf.xacro\n'}
+[20.556806] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/balance_car.ros2_control.xacro\n'}
+[20.556869] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/balance_car.urdf.xacro\n'}
+[20.556933] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/actor\n'}
+[20.556995] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/actor/wheel_link.urdf.xacro\n'}
+[20.557087] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/plugins\n'}
+[20.557154] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/plugins/gazebo_sensor_imu.xacro\n'}
+[20.557217] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/ament_index/resource_index/package_run_dependencies/robot_description_pkg\n'}
+[20.557289] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/ament_index/resource_index/parent_prefix_path/robot_description_pkg\n'}
+[20.557356] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/environment/ament_prefix_path.sh\n'}
+[20.557596] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/environment/ament_prefix_path.dsv\n'}
+[20.557678] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/environment/path.sh\n'}
+[20.557765] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/environment/path.dsv\n'}
+[20.557830] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/local_setup.bash\n'}
+[20.557895] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/local_setup.sh\n'}
+[20.557955] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/local_setup.zsh\n'}
+[20.558019] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/local_setup.dsv\n'}
+[20.558082] (robot_description_pkg) StdoutLine: {'line': b'-- Installing: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/package.dsv\n'}
+[20.558148] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/ament_index/resource_index/packages/robot_description_pkg\n'}
+[20.558237] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/cmake/robot_description_pkgConfig.cmake\n'}
+[20.558320] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/cmake/robot_description_pkgConfig-version.cmake\n'}
+[20.558394] (robot_description_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/package.xml\n'}
+[20.560495] (robot_description_pkg) CommandEnded: {'returncode': 0}
+[20.564756] (-) TimerEvent: {}
+[20.579544] (robot_description_pkg) JobEnded: {'identifier': 'robot_description_pkg', 'rc': 0}
+[20.580898] (-) EventReactorShutdown: {}

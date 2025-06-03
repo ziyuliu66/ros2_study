@@ -282,13 +282,12 @@ controller_interface::return_type LqrController::update(
   float wheel_velocity[2] = {left_wheel_velocity_,left_wheel_velocity_};
 
   float k_yaw = 2.0;
-  float K[4] = {-22.6130,-4.5769,-3.4641,-3.9337};//theta d_theta x d_x
 
   car_mean_velocity_ = (left_wheel_velocity_*wheel_radius + left_wheel_velocity_*wheel_radius)/2-v_set_;
   car_mean_displacement_ += car_mean_velocity_ *(1/30);
 
-  float left_wheel_set_effort = K[0]*euler_pitch_+K[1]*euler_pitch_velocity_+K[2]*car_mean_displacement_+K[3]*car_mean_velocity_-k_yaw*(euler_yaw_velocity_-z_set_);
-  float right_wheel_set_effort = K[0]*euler_pitch_+K[1]*euler_pitch_velocity_+K[2]*car_mean_displacement_+K[3]*car_mean_velocity_+k_yaw*(euler_yaw_velocity_-z_set_);
+  float left_wheel_set_effort = K_[0]*euler_pitch_+K_[1]*euler_pitch_velocity_+K_[2]*car_mean_displacement_+K_[3]*car_mean_velocity_-k_yaw*(euler_yaw_velocity_-z_set_);
+  float right_wheel_set_effort = K_[0]*euler_pitch_+K_[1]*euler_pitch_velocity_+K_[2]*car_mean_displacement_+K_[3]*car_mean_velocity_+k_yaw*(euler_yaw_velocity_-z_set_);
 
   float set_effort[2] = {-left_wheel_set_effort,-right_wheel_set_effort};
 
