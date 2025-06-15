@@ -7,10 +7,12 @@
 <xacro:include filename="$(find robot_description_pkg)/urdf/actor/wheel_link.urdf.xacro"/>
 <!-- sensor -->
 <xacro:include filename="$(find robot_description_pkg)/urdf/sensor/imu_link.urdf.xacro"/>
+<xacro:include filename="$(find robot_description_pkg)/urdf/sensor/camera_link.urdf.xacro"/>
 <!-- control -->
 <xacro:include filename="$(find robot_description_pkg)/urdf/balance_car.ros2_control.xacro"/>
 <!-- plugin -->
 <xacro:include filename="$(find robot_description_pkg)/plugins/gazebo_sensor_imu.xacro"/>
+<xacro:include filename="$(find robot_description_pkg)/plugins/gazebo_sensor_camera_plugin.xacro"/>
 
 <xacro:base_link_xacro xyz="0.0 0.0 0.6"/>
 <xacro:leg_link_xacro position="left" xyz="0.0 0.15 -0.25"/>
@@ -18,7 +20,9 @@
 <xacro:wheel_link_xacro position="left" xyz="0.0 0.035 -0.25"/>
 <xacro:wheel_link_xacro position="right" xyz="0.0 -0.035 -0.25"/>
 <xacro:imu_link_xacro/>
+<xacro:camera_link_xacro xyz="0.09 0.0 0.0"/>
 <xacro:gazebo_sensor_imu_plugin/>
+<xacro:gazebo_sensor_camera_plugin/>
 <xacro:balance_car_ros2_control/>
 
 

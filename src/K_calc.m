@@ -34,8 +34,8 @@ function K = K_calc()
     B=subs(B,[R,L,mw,mp,Iw,Ip,g],[R1,L1,mw1,mp1,Iw1,Ip1,9.8]);
     B=double(B);
     
-    Q=diag([1000 100 1200 100]);%theta d_theta x d_x %700 1 600 200 
-    R=100;                      %T 
+    Q=diag([1000 100 1500 100]);%theta d_theta x d_x %700 1 600 200 
+    R=50;                            %T 
     
     K=lqr(A,B,Q,R);
   

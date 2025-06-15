@@ -4,11 +4,13 @@
 /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/common_inertia.xacro
 /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/base_link.urdf.xacro
 /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/sensor/imu_link.urdf.xacro
+/home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/sensor/camera_link.urdf.xacro
 /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/leg_link.urdf.xacro
 /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/balance_car.ros2_control.xacro
 /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/balance_car.urdf.xacro
 /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/urdf/actor/wheel_link.urdf.xacro
 /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/plugins/gazebo_sensor_imu.xacro
+/home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/plugins/gazebo_sensor_camera_plugin.xacro
 /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/ament_index/resource_index/package_run_dependencies/robot_description_pkg
 /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/ament_index/resource_index/parent_prefix_path/robot_description_pkg
 /home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg/share/robot_description_pkg/environment/ament_prefix_path.sh

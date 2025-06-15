@@ -1,0 +1,101 @@
+[0.037s] Invoking command in '/home/lzy/ros2_study/balance_car_ws/build/lqr_controller': AMENT_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lzy/ros2_study/balance_car_ws/build/lqr_controller -- -j8 -l8
+[0.142s] [ 50%] Built target lqr_controller_parameters
+[0.194s] [ 75%] [32mBuilding CXX object CMakeFiles/lqr_controller.dir/src/lqr_controller.cpp.o[0m
+[3.607s] In file included from [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+[3.607s]                  from [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[3.607s] [01m[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp:1:145:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "lqr_controller_parameters.hpp" is deprecated. Use #include <lqr_controller/lqr_controller_parameters.hpp> instead.[m[K’
+[3.607s]     1 | #pragma message("#include \"lqr_controller_parameters.hpp\" is deprecated. Use #include <lqr_controller/lqr_controller_parameters.hpp> instead."[01;36m[K)[m[K
+[3.607s]       |                                                                                                                                                 [01;36m[K^[m[K
+[3.680s] In file included from [01m[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp:31[m[K,
+[3.680s]                  from [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+[3.681s]                  from [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[3.681s] [01m[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/validate_lqr_controller_parameters.hpp:29:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Result = class tl::expected<void, std::__cxx11::basic_string<char> >[m[K’ is deprecated: Use tl::expected<void, std::string> for return instead. `#include <tl_expected/expected.hpp>`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.681s]    29 | Result forbidden_interface_name_prefix(rclcpp::Parameter const & parameter[01;35m[K)[m[K
+[3.681s]       |                                                                           [01;35m[K^[m[K
+[3.681s] In file included from [01m[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp:25[m[K,
+[3.681s]                  from [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+[3.681s]                  from [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[3.681s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.681s]    37 | using [01;36m[KResult[m[K
+[3.681s]       |       [01;36m[K^~~~~~[m[K
+[3.681s] In file included from [01m[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp:31[m[K,
+[3.681s]                  from [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+[3.681s]                  from [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[3.682s] [01m[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/validate_lqr_controller_parameters.hpp:[m[K In function ‘[01m[Kparameter_traits::Result parameter_traits::forbidden_interface_name_prefix(const rclcpp::Parameter&)[m[K’:
+[3.682s] [01m[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/validate_lqr_controller_parameters.hpp:35:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktl::expected<void, std::__cxx11::basic_string<char> > parameter_traits::ERROR(const string&, Args ...) [with Args = {}; std::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: When returning tl::expected<void, std::string> you can call fmt::format directly. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.682s]    35 |     return [01;35m[KERROR("'interface_name' parameter can not start with 'blup_'")[m[K;
+[3.682s]       |            [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.682s] In file included from [01m[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp:25[m[K,
+[3.682s]                  from [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+[3.682s]                  from [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[3.682s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:46:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.682s]    46 | [01;36m[KERROR[m[K(const std::string& format, Args... args)
+[3.682s]       | [01;36m[K^~~~~[m[K
+[3.682s] In file included from [01m[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp:31[m[K,
+[3.682s]                  from [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+[3.682s]                  from [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[3.682s] [01m[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/validate_lqr_controller_parameters.hpp:38:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kparameter_traits::OK[m[K’ is deprecated: When returning tl::expected<void, std::string> default construct for OK with `{}`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.682s]    38 |   return [01;35m[KOK[m[K;
+[3.682s]       |          [01;35m[K^~[m[K
+[3.682s] In file included from [01m[K/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp:25[m[K,
+[3.682s]                  from [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+[3.682s]                  from [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[3.682s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:51:13:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.682s]    51 | auto static [01;36m[KOK[m[K
+[3.683s]       |             [01;36m[K^~[m[K
+[3.696s] In file included from [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:32[m[K,
+[3.696s]                  from [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[3.696s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:[m[K At global scope:
+[3.696s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[3.696s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[3.696s]       |                                                                                                    [01;36m[K^[m[K
+[3.697s] In file included from [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:33[m[K,
+[3.697s]                  from [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[3.697s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+[3.697s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+[3.697s]       |                                                                                                       [01;36m[K^[m[K
+[3.974s] [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type lqr_controller::LqrController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.974s] [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:278:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcurrent_ref[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.974s]   278 |   auto [01;35m[Kcurrent_ref[m[K = input_ref_.readFromRT();
+[3.974s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[3.974s] [01m[K/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp:276:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.974s]   276 |   [01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & /*period*/)
+[3.975s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[17.367s] [100%] [32m[1mLinking CXX shared library liblqr_controller.so[0m
+[18.575s] [100%] Built target lqr_controller
+[18.585s] Invoked command in '/home/lzy/ros2_study/balance_car_ws/build/lqr_controller' returned '0': AMENT_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lzy/ros2_study/balance_car_ws/build/lqr_controller -- -j8 -l8
+[18.587s] Invoking command in '/home/lzy/ros2_study/balance_car_ws/build/lqr_controller': AMENT_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lzy/ros2_study/balance_car_ws/build/lqr_controller
+[18.593s] -- Install configuration: ""
+[18.593s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller
+[18.593s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller/validate_lqr_controller_parameters.hpp
+[18.593s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller/lqr_controller_parameters.hpp
+[18.593s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/lqr_controller.xml
+[18.593s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/lib/liblqr_controller.so
+[18.609s] -- Set runtime path of "/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/lib/liblqr_controller.so" to ""
+[18.609s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller
+[18.609s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller/lqr_controller
+[18.609s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller/lqr_controller/lqr_controller.hpp
+[18.609s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller/lqr_controller/validate_lqr_controller_parameters.hpp
+[18.609s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller/lqr_controller/visibility_control.h
+[18.609s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/environment/library_path.sh
+[18.610s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/environment/library_path.dsv
+[18.610s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/ament_index/resource_index/package_run_dependencies/lqr_controller
+[18.610s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/ament_index/resource_index/parent_prefix_path/lqr_controller
+[18.610s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/environment/ament_prefix_path.sh
+[18.610s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/environment/ament_prefix_path.dsv
+[18.610s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/environment/path.sh
+[18.610s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/environment/path.dsv
+[18.611s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/local_setup.bash
+[18.611s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/local_setup.sh
+[18.611s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/local_setup.zsh
+[18.611s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/local_setup.dsv
+[18.611s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/package.dsv
+[18.611s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/ament_index/resource_index/packages/lqr_controller
+[18.611s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/lqr_controller
+[18.611s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.611s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.611s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[18.611s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/cmake/lqr_controllerConfig.cmake
+[18.611s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/cmake/lqr_controllerConfig-version.cmake
+[18.611s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/package.xml
+[18.613s] Invoked command in '/home/lzy/ros2_study/balance_car_ws/build/lqr_controller' returned '0': AMENT_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lzy/ros2_study/balance_car_ws/build/lqr_controller

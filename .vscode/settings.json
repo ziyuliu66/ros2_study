@@ -65,5 +65,6 @@
         "cinttypes": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/lzy/ros2_study/balance_car_ws/src/lqr_controller"
 }

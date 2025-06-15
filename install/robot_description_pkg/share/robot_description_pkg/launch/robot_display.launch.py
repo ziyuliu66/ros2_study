@@ -43,10 +43,10 @@ def generate_launch_description():
             'robot_description': robot_description
         }]
     )
-    # action_joint_state_publisher_node = Node(
-    #     package='joint_state_publisher',
-    #     executable='joint_state_publisher',
-    # )
+    action_joint_state_publisher_node = Node(
+        package='joint_state_publisher',
+        executable='joint_state_publisher',
+    )
     
     action_rviz2_node = Node(
         package='rviz2',

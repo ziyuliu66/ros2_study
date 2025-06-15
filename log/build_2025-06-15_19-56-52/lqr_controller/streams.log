@@ -1,0 +1,38 @@
+[0.015s] Invoking command in '/home/lzy/ros2_study/balance_car_ws/build/lqr_controller': AMENT_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lzy/ros2_study/balance_car_ws/build/lqr_controller -- -j8 -l8
+[0.090s] [ 50%] Built target lqr_controller_parameters
+[0.126s] [100%] Built target lqr_controller
+[0.140s] Invoked command in '/home/lzy/ros2_study/balance_car_ws/build/lqr_controller' returned '0': AMENT_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lzy/ros2_study/balance_car_ws/build/lqr_controller -- -j8 -l8
+[0.143s] Invoking command in '/home/lzy/ros2_study/balance_car_ws/build/lqr_controller': AMENT_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lzy/ros2_study/balance_car_ws/build/lqr_controller
+[0.154s] -- Install configuration: ""
+[0.154s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller
+[0.154s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller/validate_lqr_controller_parameters.hpp
+[0.154s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller/lqr_controller_parameters.hpp
+[0.155s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/lqr_controller.xml
+[0.155s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/lib/liblqr_controller.so
+[0.155s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller
+[0.155s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller/lqr_controller
+[0.155s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller/lqr_controller/lqr_controller.hpp
+[0.156s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller/lqr_controller/validate_lqr_controller_parameters.hpp
+[0.156s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/include/lqr_controller/lqr_controller/visibility_control.h
+[0.156s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/environment/library_path.sh
+[0.156s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/environment/library_path.dsv
+[0.156s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/ament_index/resource_index/package_run_dependencies/lqr_controller
+[0.156s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/ament_index/resource_index/parent_prefix_path/lqr_controller
+[0.157s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/environment/ament_prefix_path.sh
+[0.157s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/environment/ament_prefix_path.dsv
+[0.157s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/environment/path.sh
+[0.157s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/environment/path.dsv
+[0.157s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/local_setup.bash
+[0.157s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/local_setup.sh
+[0.157s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/local_setup.zsh
+[0.157s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/local_setup.dsv
+[0.157s] -- Installing: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/package.dsv
+[0.158s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/ament_index/resource_index/packages/lqr_controller
+[0.158s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/lqr_controller
+[0.158s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.158s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.158s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[0.158s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/cmake/lqr_controllerConfig.cmake
+[0.158s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/cmake/lqr_controllerConfig-version.cmake
+[0.158s] -- Up-to-date: /home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/package.xml
+[0.162s] Invoked command in '/home/lzy/ros2_study/balance_car_ws/build/lqr_controller' returned '0': AMENT_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lzy/ros2_study/balance_car_ws/build/lqr_controller

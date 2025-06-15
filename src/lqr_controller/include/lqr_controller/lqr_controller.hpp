@@ -146,7 +146,7 @@ private:
   void desired_states_callback(const std::shared_ptr<geometry_msgs::msg::Twist> msg);
 
   RobotState robotstate_;
-  float K_[4] = {-22.6130,-4.5769,-3.4641,-3.9337};//theta d_theta x d_x
+  float K_[4] = {-23.2608,-4.7505,-3.8730,-4.2223};//theta d_theta x d_x
 };
 
 }  // namespace lqr_controller
