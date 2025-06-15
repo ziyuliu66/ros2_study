@@ -1,0 +1,216 @@
+[0.175s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.175s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x734727f33b80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x734727f334c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x734727f334c0>>)
+[0.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.457s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lzy/ros2_study/balance_car_ws'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/lqr_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/lqr_controller) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/lqr_controller) by extension 'ignore_ament_install'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/lqr_controller) by extensions ['colcon_pkg']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/lqr_controller) by extension 'colcon_pkg'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/lqr_controller) by extensions ['colcon_meta']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/lqr_controller) by extension 'colcon_meta'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/lqr_controller) by extensions ['ros']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/lqr_controller) by extension 'ros'
+[0.474s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lqr_controller' with type 'ros.ament_cmake' and name 'lqr_controller'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description_pkg) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description_pkg) by extension 'ignore_ament_install'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description_pkg) by extensions ['colcon_pkg']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description_pkg) by extension 'colcon_pkg'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description_pkg) by extensions ['colcon_meta']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description_pkg) by extension 'colcon_meta'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description_pkg) by extensions ['ros']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description_pkg) by extension 'ros'
+[0.474s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description_pkg' with type 'ros.ament_cmake' and name 'robot_description_pkg'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_state_pub_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_state_pub_interface) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_state_pub_interface) by extension 'ignore_ament_install'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_state_pub_interface) by extensions ['colcon_pkg']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_state_pub_interface) by extension 'colcon_pkg'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_state_pub_interface) by extensions ['colcon_meta']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_state_pub_interface) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_state_pub_interface) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_state_pub_interface) by extension 'ros'
+[0.475s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_state_pub_interface' with type 'ros.ament_cmake' and name 'robot_state_pub_interface'
+[0.475s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.475s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.475s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.475s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.475s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.506s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 332 installed packages in /opt/ros/humble
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'robot_state_pub_interface' build argument 'cmake_args' from command line to 'None'
+[0.600s] Level 5:colcon.colcon_core.verb:set package 'robot_state_pub_interface' build argument 'cmake_target' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'robot_state_pub_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'robot_state_pub_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'robot_state_pub_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'robot_state_pub_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'robot_state_pub_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'robot_state_pub_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'robot_state_pub_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.601s] DEBUG:colcon.colcon_core.verb:Building package 'robot_state_pub_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface', 'merge_install': False, 'path': '/home/lzy/ros2_study/balance_car_ws/src/robot_state_pub_interface', 'symlink_install': False, 'test_result_base': None}
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'cmake_target' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'lqr_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.601s] DEBUG:colcon.colcon_core.verb:Building package 'lqr_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lzy/ros2_study/balance_car_ws/build/lqr_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller', 'merge_install': False, 'path': '/home/lzy/ros2_study/balance_car_ws/src/lqr_controller', 'symlink_install': False, 'test_result_base': None}
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'robot_description_pkg' build argument 'cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'robot_description_pkg' build argument 'cmake_target' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'robot_description_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'robot_description_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'robot_description_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'robot_description_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'robot_description_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'robot_description_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.601s] Level 5:colcon.colcon_core.verb:set package 'robot_description_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.601s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lzy/ros2_study/balance_car_ws/install/robot_description_pkg', 'merge_install': False, 'path': '/home/lzy/ros2_study/balance_car_ws/src/robot_description_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.602s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.603s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.603s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lzy/ros2_study/balance_car_ws/src/robot_state_pub_interface' with build type 'ament_cmake'
+[0.603s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lzy/ros2_study/balance_car_ws/src/robot_state_pub_interface'
+[0.608s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.608s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.608s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface -- -j8 -l8
+[0.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface -- -j8 -l8
+[0.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface
+[1.018s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_state_pub_interface)
+[1.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface' for CMake module files
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface' for CMake config files
+[1.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_state_pub_interface', 'cmake_prefix_path')
+[1.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/hook/cmake_prefix_path.ps1'
+[1.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/hook/cmake_prefix_path.dsv'
+[1.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/hook/cmake_prefix_path.sh'
+[1.032s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib'
+[1.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_state_pub_interface', 'ld_library_path_lib')
+[1.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/hook/ld_library_path_lib.ps1'
+[1.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/hook/ld_library_path_lib.dsv'
+[1.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/hook/ld_library_path_lib.sh'
+[1.034s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/bin'
+[1.034s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/pkgconfig/robot_state_pub_interface.pc'
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/python3.10/site-packages'
+[1.035s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/bin'
+[1.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/package.ps1'
+[1.036s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/package.dsv'
+[1.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/package.sh'
+[1.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/package.bash'
+[1.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/package.zsh'
+[1.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/colcon-core/packages/robot_state_pub_interface)
+[1.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_state_pub_interface)
+[1.039s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface' for CMake module files
+[1.040s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface' for CMake config files
+[1.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_state_pub_interface', 'cmake_prefix_path')
+[1.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/hook/cmake_prefix_path.ps1'
+[1.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/hook/cmake_prefix_path.dsv'
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/hook/cmake_prefix_path.sh'
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib'
+[1.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_state_pub_interface', 'ld_library_path_lib')
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/hook/ld_library_path_lib.ps1'
+[1.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/hook/ld_library_path_lib.dsv'
+[1.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/hook/ld_library_path_lib.sh'
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/bin'
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/pkgconfig/robot_state_pub_interface.pc'
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib/python3.10/site-packages'
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/bin'
+[1.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/package.ps1'
+[1.043s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/package.dsv'
+[1.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/package.sh'
+[1.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/package.bash'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/robot_state_pub_interface/package.zsh'
+[1.045s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/share/colcon-core/packages/robot_state_pub_interface)
+[1.045s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lzy/ros2_study/balance_car_ws/src/lqr_controller' with build type 'ament_cmake'
+[1.045s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lzy/ros2_study/balance_car_ws/src/lqr_controller'
+[1.045s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.045s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lzy/ros2_study/balance_car_ws/build/lqr_controller': AMENT_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lzy/ros2_study/balance_car_ws/build/lqr_controller -- -j8 -l8
+[10.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lzy/ros2_study/balance_car_ws/build/lqr_controller' returned '2': AMENT_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lzy/ros2_study/balance_car_ws/build/lqr_controller -- -j8 -l8
+[10.433s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lqr_controller)
+[10.433s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller' for CMake module files
+[10.434s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller' for CMake config files
+[10.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('lqr_controller', 'cmake_prefix_path')
+[10.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/hook/cmake_prefix_path.ps1'
+[10.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/hook/cmake_prefix_path.dsv'
+[10.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/hook/cmake_prefix_path.sh'
+[10.436s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/lib'
+[10.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('lqr_controller', 'ld_library_path_lib')
+[10.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/hook/ld_library_path_lib.ps1'
+[10.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/hook/ld_library_path_lib.dsv'
+[10.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/hook/ld_library_path_lib.sh'
+[10.438s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/bin'
+[10.438s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/lib/pkgconfig/lqr_controller.pc'
+[10.439s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/lib/python3.10/site-packages'
+[10.439s] Level 1:colcon.colcon_core.environment:checking '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/bin'
+[10.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/package.ps1'
+[10.440s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/package.dsv'
+[10.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/package.sh'
+[10.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/package.bash'
+[10.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/lqr_controller/package.zsh'
+[10.442s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lzy/ros2_study/balance_car_ws/install/lqr_controller/share/colcon-core/packages/lqr_controller)
+[10.453s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.453s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.453s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[10.453s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.460s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.460s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.460s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.477s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.477s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lzy/ros2_study/balance_car_ws/install/local_setup.ps1'
+[10.479s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lzy/ros2_study/balance_car_ws/install/_local_setup_util_ps1.py'
+[10.481s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lzy/ros2_study/balance_car_ws/install/setup.ps1'
+[10.482s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lzy/ros2_study/balance_car_ws/install/local_setup.sh'
+[10.483s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lzy/ros2_study/balance_car_ws/install/_local_setup_util_sh.py'
+[10.484s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lzy/ros2_study/balance_car_ws/install/setup.sh'
+[10.485s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lzy/ros2_study/balance_car_ws/install/local_setup.bash'
+[10.486s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lzy/ros2_study/balance_car_ws/install/setup.bash'
+[10.488s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lzy/ros2_study/balance_car_ws/install/local_setup.zsh'
+[10.488s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lzy/ros2_study/balance_car_ws/install/setup.zsh'

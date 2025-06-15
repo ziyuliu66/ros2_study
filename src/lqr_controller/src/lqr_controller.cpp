@@ -192,31 +192,31 @@ void LqrController::imu_callback(const std::shared_ptr<sensor_msgs::msg::Imu> ms
   tf2::Matrix3x3 mat(quat);
   double roll, pitch, yaw;
   mat.getRPY(roll, pitch, yaw);
-  euler_roll_ = roll;
-  euler_pitch_ = pitch;
-  euler_yaw_ = yaw;
+  robotstate_.euler_roll = roll;
+  robotstate_.euler_pitch = pitch;
+  robotstate_.euler_yaw = yaw;
 
-  euler_roll_velocity_ = msg->angular_velocity.x;
-  euler_pitch_velocity_ = msg->angular_velocity.y;
-  euler_yaw_velocity_ = msg->angular_velocity.z;
+  robotstate_.euler_roll_velocity = msg->angular_velocity.x;
+  robotstate_.euler_pitch_velocity = msg->angular_velocity.y;
+  robotstate_.euler_yaw_velocity = msg->angular_velocity.z;
 
-  x_acceleration_ = msg->linear_acceleration.x;
-  y_acceleration_ = msg->linear_acceleration.y;
-  z_acceleration_ = msg->linear_acceleration.z;
+  robotstate_.x_acceleration = msg->linear_acceleration.x;
+  robotstate_.y_acceleration = msg->linear_acceleration.y;
+  robotstate_.z_acceleration = msg->linear_acceleration.z;
 }
 
 void LqrController::joint_states_callback(const std::shared_ptr<sensor_msgs::msg::JointState> msg)
 {
-  left_wheel_velocity_ = msg->velocity[0];
-  right_wheel_velocity_ = msg->velocity[1];
-  left_wheel_effort_= msg->effort[0];
-  right_wheel_effort_ = msg->effort[1];
+  robotstate_.left_wheel_velocity = msg->velocity[0];
+  robotstate_.right_wheel_velocity = msg->velocity[1];
+  robotstate_.left_wheel_effort = msg->effort[0];
+  robotstate_.right_wheel_effort = msg->effort[1];
 }
 
 void LqrController::desired_states_callback(const std::shared_ptr<geometry_msgs::msg::Twist> msg)
 {
-  v_set_ = msg->linear.x;
-  z_set_ = msg->angular.z;
+  robotstate_.v_set = msg->linear.x;
+  robotstate_.z_set = msg->angular.z;
 }
 
 controller_interface::InterfaceConfiguration LqrController::command_interface_configuration() const
@@ -276,17 +276,17 @@ controller_interface::return_type LqrController::update(
   const rclcpp::Time & time, const rclcpp::Duration & /*period*/)
 {
   auto current_ref = input_ref_.readFromRT();
-  float euler_angle[3] = {euler_roll_,euler_pitch_,euler_yaw_};
-  float euler_angle_velocity[3] = {euler_roll_velocity_,euler_pitch_velocity_,euler_yaw_velocity_};
-  float wheel_velocity[2] = {left_wheel_velocity_,left_wheel_velocity_};
+  float euler_angle[3] = {robotstate_.euler_roll,robotstate_.euler_pitch,robotstate_.euler_yaw};
+  float euler_angle_velocity[3] = {robotstate_.euler_roll_velocity,robotstate_.euler_pitch_velocity,robotstate_.euler_yaw_velocity};
+  float wheel_velocity[2] = {robotstate_.left_wheel_velocity,robotstate_.left_wheel_velocity};
 
   float k_yaw = 2.0;
 
-  car_mean_velocity_ = (left_wheel_velocity_*wheel_radius + left_wheel_velocity_*wheel_radius)/2-v_set_;
-  car_mean_displacement_ += car_mean_velocity_ *(1/30);
+  robotstate_.car_mean_velocity = (wheel_velocity[0]*wheel_radius + wheel_velocity[1]*wheel_radius)/2-robotstate_.v_set;
+  robotstate_.car_mean_displacement += robotstate_.car_mean_velocity *(1/30);
 
-  float left_wheel_set_effort = K_[0]*euler_pitch_+K_[1]*euler_pitch_velocity_+K_[2]*car_mean_displacement_+K_[3]*car_mean_velocity_-k_yaw*(euler_yaw_velocity_-z_set_);
-  float right_wheel_set_effort = K_[0]*euler_pitch_+K_[1]*euler_pitch_velocity_+K_[2]*car_mean_displacement_+K_[3]*car_mean_velocity_+k_yaw*(euler_yaw_velocity_-z_set_);
+  float left_wheel_set_effort = K_[0]*euler_angle[1]+K_[1]*euler_angle_velocity[1]+K_[2]*robotstate_.car_mean_displacement+K_[3]*robotstate_.car_mean_velocity-k_yaw*(euler_angle_velocity[2]-robotstate_.z_set);
+  float right_wheel_set_effort = K_[0]*euler_angle[1]+K_[1]*euler_angle_velocity[1]+K_[2]*robotstate_.car_mean_displacement+K_[3]*robotstate_.car_mean_velocity+k_yaw*(euler_angle_velocity[2]-robotstate_.z_set);
 
   float set_effort[2] = {-left_wheel_set_effort,-right_wheel_set_effort};
 
@@ -320,8 +320,8 @@ controller_interface::return_type LqrController::update(
     {
       state_publisher_->msg_.angles.emplace_back(euler_angle[j]*rad2angle);
     }
-    state_publisher_->msg_.set_effort.emplace_back(left_wheel_effort_);
-    state_publisher_->msg_.set_effort.emplace_back(right_wheel_effort_);
+    state_publisher_->msg_.set_effort.emplace_back(robotstate_.left_wheel_effort);
+    state_publisher_->msg_.set_effort.emplace_back(robotstate_.right_wheel_effort);
     state_publisher_->unlockAndPublish();
   }
 

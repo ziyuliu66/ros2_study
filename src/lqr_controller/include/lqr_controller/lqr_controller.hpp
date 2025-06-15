@@ -63,6 +63,22 @@ enum class control_mode_type : std::uint8_t
   SLOW = 1,
 };
 
+struct RobotState
+{
+  float euler_roll = 0.0, euler_pitch = 0.0, euler_yaw = 0.0;
+  float euler_roll_velocity = 0.0, euler_pitch_velocity = 0.0, euler_yaw_velocity = 0.0;
+  float x_acceleration = 0.0, y_acceleration = 0.0, z_acceleration = 0.0;
+
+  float left_wheel_velocity = 0.0, right_wheel_velocity = 0.0;
+  float left_wheel_effort = 0.0, right_wheel_effort = 0.0;
+  float car_mean_velocity = 0.0;
+  float car_mean_displacement = 0.0;
+
+  float v_set = 0.0;
+  float z_set = 0.0;
+
+};
+
 class LqrController : public controller_interface::ControllerInterface
 {
 public:
@@ -129,18 +145,7 @@ private:
   void joint_states_callback(const std::shared_ptr<sensor_msgs::msg::JointState> msg);
   void desired_states_callback(const std::shared_ptr<geometry_msgs::msg::Twist> msg);
 
-  float euler_roll_ = 0.0, euler_pitch_ = 0.0, euler_yaw_ = 0.0;
-  float euler_roll_velocity_ = 0.0, euler_pitch_velocity_ = 0.0, euler_yaw_velocity_ = 0.0;
-  float x_acceleration_ = 0.0, y_acceleration_ = 0.0, z_acceleration_ = 0.0;
-
-  float left_wheel_velocity_ = 0.0, right_wheel_velocity_ = 0.0;
-  float left_wheel_effort_ = 0.0, right_wheel_effort_ = 0.0;
-  float car_mean_velocity_ = 0.0;
-  float car_mean_displacement_ = 0.0;
-
-  float v_set_ = 0.0;
-  float z_set_ = 0.0;
-
+  RobotState robotstate_;
   float K_[4] = {-22.6130,-4.5769,-3.4641,-3.9337};//theta d_theta x d_x
 };
 
