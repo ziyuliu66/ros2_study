@@ -278,7 +278,7 @@ controller_interface::return_type LqrController::update(
   auto current_ref = input_ref_.readFromRT();
   float euler_angle[3] = {robotstate_.euler_roll,robotstate_.euler_pitch,robotstate_.euler_yaw};
   float euler_angle_velocity[3] = {robotstate_.euler_roll_velocity,robotstate_.euler_pitch_velocity,robotstate_.euler_yaw_velocity};
-  float wheel_velocity[2] = {robotstate_.left_wheel_velocity,robotstate_.left_wheel_velocity};
+  float wheel_velocity[2] = {robotstate_.left_wheel_velocity,robotstate_.right_wheel_velocity};
 
   float k_yaw = 2.0;
 
