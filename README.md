@@ -1,3 +1,5 @@
+该项目环境为 ubuntu 22.04 + ROS2 humble
+
 该项目为我为了学习ros2_control与gazebo所写的，因为初学代码水平较低，请大家见谅，也欢迎大家提出修改意见。
 
 该项目环境为ros2 humble
