@@ -1,5 +1,13 @@
 该项目环境为 ubuntu 22.04 + ROS2 humble
 
+需要安装：gazebo_ros，xacro ，gazebo_ros2_control,ros2_control,ros2_controllers
+安装命令为：
+  sudo apt-get install ros-humble-gazebo-ros-pkgs
+  sudo apt-get install ros-humble-xacro
+  sudo apt-get install ros-humble-gazebo-ros2-control 
+  sudo apt-get install ros-humble-ros2-control 
+  sudo apt-get install ros-humble-ros2-controllers
+
 该项目为我为了学习ros2_control与gazebo所写的，因为初学代码水平较低，请大家见谅，也欢迎大家提出修改意见。
 
 食用方法：
