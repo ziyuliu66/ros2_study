@@ -1,9 +1,9 @@
 {
   "package_name": "robot_state_pub_interface",
-  "output_dir": "/home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface/rosidl_generator_py/robot_state_pub_interface",
+  "output_dir": "/home/lzy/ros2/ros2_study/build/robot_state_pub_interface/rosidl_generator_py/robot_state_pub_interface",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface/rosidl_adapter/robot_state_pub_interface:msg/RobotState.idl"
+    "/home/lzy/ros2/ros2_study/build/robot_state_pub_interface/rosidl_adapter/robot_state_pub_interface:msg/RobotState.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -53,7 +53,7 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface/rosidl_adapter/robot_state_pub_interface/msg/RobotState.idl",
+    "/home/lzy/ros2/ros2_study/build/robot_state_pub_interface/rosidl_adapter/robot_state_pub_interface/msg/RobotState.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

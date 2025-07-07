@@ -93,9 +93,9 @@ template <typename T, size_t capacity>
     }
 
     ParamListener(const std::shared_ptr<rclcpp::node_interfaces::NodeParametersInterface>& parameters_interface,
-                  rclcpp::Logger logger, std::string const& prefix = "") {
-      logger_ = std::move(logger);
-      prefix_ = prefix;
+                  rclcpp::Logger logger, std::string const& prefix = "")
+    : prefix_{prefix},
+      logger_{std::move(logger)} {
       if (!prefix_.empty() && prefix_.back() != '.') {
         prefix_ += ".";
       }
@@ -112,6 +112,30 @@ template <typename T, size_t capacity>
       return params_;
     }
 
+    /**
+     * @brief Tries to update the parsed Params object
+     * @param params_in The Params object to update
+     * @return true if the Params object was updated, false if it was already up to date or the mutex could not be locked
+     * @note This function tries to lock the mutex without blocking, so it can be used in a RT loop
+     */
+    bool try_update_params(Params & params_in) const {
+      std::unique_lock<std::mutex> lock(mutex_, std::try_to_lock);
+      if (lock.owns_lock()) {
+        if (const bool is_old = params_in.__stamp != params_.__stamp; is_old) {
+          params_in = params_;
+          return true;
+        }
+      }
+      return false;
+    }
+
+    /**
+     * @brief Tries to get the current Params object
+     * @param params_in The Params object to fill with the current parameters
+     * @return true if mutex can be locked, false if mutex could not be locked
+     * @note The parameters are only filled, when the mutex can be locked and the params timestamp is different
+     * @note This function tries to lock the mutex without blocking, so it can be used in a RT loop
+     */
     bool try_get_params(Params & params_in) const {
       if (mutex_.try_lock()) {
         if (const bool is_old = params_in.__stamp != params_.__stamp; is_old) {
@@ -189,6 +213,9 @@ template <typename T, size_t capacity>
 
       updated_params.__stamp = clock_.now();
       update_internal_params(updated_params);
+      if (user_callback_) {
+         user_callback_(updated_params);
+      }
       return rsl::to_parameter_result_msg({});
     }
 
@@ -257,6 +284,15 @@ template <typename T, size_t capacity>
       update_internal_params(updated_params);
     }
 
+    using userParameterUpdateCB = std::function<void(const Params&)>;
+    void setUserCallback(const userParameterUpdateCB& callback){
+      user_callback_ = callback;
+    }
+
+    void clearUserCallback(){
+      user_callback_ = {};
+    }
+
     private:
       void update_internal_params(Params updated_params) {
         std::lock_guard<std::mutex> lock(mutex_);
@@ -268,11 +304,9 @@ template <typename T, size_t capacity>
       rclcpp::Clock clock_;
       std::shared_ptr<rclcpp::node_interfaces::OnSetParametersCallbackHandle> handle_;
       std::shared_ptr<rclcpp::node_interfaces::NodeParametersInterface> parameters_interface_;
+      userParameterUpdateCB user_callback_;
 
-      // rclcpp::Logger cannot be default-constructed
-      // so we must provide a initialization here even though
-      // every one of our constructors initializes logger_
-      rclcpp::Logger logger_ = rclcpp::get_logger("lqr_controller");
+      rclcpp::Logger logger_;
       std::mutex mutable mutex_;
   };
 

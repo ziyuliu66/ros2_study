@@ -1,0 +1,61 @@
+In file included from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+                 from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller_parameters.hpp:1:145:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "lqr_controller_parameters.hpp" is deprecated. Use #include <lqr_controller/lqr_controller_parameters.hpp> instead.[m[K’
+    1 | a message("#include \"lqr_controller_parameters.hpp\" is deprecated. Use #include <lqr_controller/lqr_controller_parameters.hpp> instead."[01;36m[K)[m[K
+      |                                                                                                                                           [01;36m[K^[m[K
+
+In file included from [01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller_parameters.hpp:31[m[K,
+                 from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+                 from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/validate_lqr_controller_parameters.hpp:29:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Result = class tl::expected<void, std::__cxx11::basic_string<char> >[m[K’ is deprecated: Use tl::expected<void, std::string> for return instead. `#include <tl_expected/expected.hpp>`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   29 | Result forbidden_interface_name_prefix(rclcpp::Parameter const & parameter[01;35m[K)[m[K
+      |                                                                           [01;35m[K^[m[K
+In file included from [01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller_parameters.hpp:25[m[K,
+                 from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+                 from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   37 | using [01;36m[KResult[m[K
+      |       [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller_parameters.hpp:31[m[K,
+                 from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+                 from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/validate_lqr_controller_parameters.hpp:[m[K In function ‘[01m[Kparameter_traits::Result parameter_traits::forbidden_interface_name_prefix(const rclcpp::Parameter&)[m[K’:
+[01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/validate_lqr_controller_parameters.hpp:35:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktl::expected<void, std::__cxx11::basic_string<char> > parameter_traits::ERROR(const string&, Args ...) [with Args = {}; std::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: When returning tl::expected<void, std::string> you can call fmt::format directly. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   35 |     return [01;35m[KERROR("'interface_name' parameter can not start with 'blup_'")[m[K;
+      |            [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller_parameters.hpp:25[m[K,
+                 from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+                 from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:46:1:[m[K [01;36m[Knote: [m[Kdeclared here
+   46 | [01;36m[KERROR[m[K(const std::string& format, Args... args)
+      | [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller_parameters.hpp:31[m[K,
+                 from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+                 from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/validate_lqr_controller_parameters.hpp:38:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kparameter_traits::OK[m[K’ is deprecated: When returning tl::expected<void, std::string> default construct for OK with `{}`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   38 |   return [01;35m[KOK[m[K;
+      |          [01;35m[K^~[m[K
+In file included from [01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller_parameters.hpp:25[m[K,
+                 from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+                 from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:51:13:[m[K [01;36m[Knote: [m[Kdeclared here
+   51 | auto static [01;36m[KOK[m[K
+      |             [01;36m[K^~[m[K
+In file included from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:32[m[K,
+                 from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:[m[K At global scope:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                    [01;36m[K^[m[K
+In file included from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:33[m[K,
+                 from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+   22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+      |                                                                                                       [01;36m[K^[m[K
+[01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type lqr_controller::LqrController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:278:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcurrent_ref[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  278 |   auto [01;35m[Kcurrent_ref[m[K = input_ref_.readFromRT();
+      |        [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:276:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  276 |   [01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & /*period*/)
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K

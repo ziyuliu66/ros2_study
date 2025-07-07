@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lzy/ros2_study/balance_car_ws/src/lqr_controller
+CMAKE_SOURCE_DIR = /home/lzy/ros2/ros2_study/src/lqr_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lzy/ros2_study/balance_car_ws/build/lqr_controller
+CMAKE_BINARY_DIR = /home/lzy/ros2/ros2_study/build/lqr_controller
 
 # Utility rule file for lqr_controller_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/lqr_controller_uninstall.dir/compiler_depend.make
 include CMakeFiles/lqr_controller_uninstall.dir/progress.make
 
 CMakeFiles/lqr_controller_uninstall:
-	/usr/bin/cmake -P /home/lzy/ros2_study/balance_car_ws/build/lqr_controller/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/lzy/ros2/ros2_study/build/lqr_controller/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 lqr_controller_uninstall: CMakeFiles/lqr_controller_uninstall
 lqr_controller_uninstall: CMakeFiles/lqr_controller_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/lqr_controller_uninstall.dir/clean:
 .PHONY : CMakeFiles/lqr_controller_uninstall.dir/clean
 
 CMakeFiles/lqr_controller_uninstall.dir/depend:
-	cd /home/lzy/ros2_study/balance_car_ws/build/lqr_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lzy/ros2_study/balance_car_ws/src/lqr_controller /home/lzy/ros2_study/balance_car_ws/src/lqr_controller /home/lzy/ros2_study/balance_car_ws/build/lqr_controller /home/lzy/ros2_study/balance_car_ws/build/lqr_controller /home/lzy/ros2_study/balance_car_ws/build/lqr_controller/CMakeFiles/lqr_controller_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lzy/ros2/ros2_study/build/lqr_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lzy/ros2/ros2_study/src/lqr_controller /home/lzy/ros2/ros2_study/src/lqr_controller /home/lzy/ros2/ros2_study/build/lqr_controller /home/lzy/ros2/ros2_study/build/lqr_controller /home/lzy/ros2/ros2_study/build/lqr_controller/CMakeFiles/lqr_controller_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lqr_controller_uninstall.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface/robot_state_pub_interface__py
+# Install script for directory: /home/lzy/ros2/ros2_study/build/robot_state_pub_interface/robot_state_pub_interface__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lzy/ros2_study/balance_car_ws/install/robot_state_pub_interface")
+  set(CMAKE_INSTALL_PREFIX "/home/lzy/ros2/ros2_study/install/robot_state_pub_interface")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

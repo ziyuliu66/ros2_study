@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0718193f7f3b0bfddd1a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "robot_state_pub_interface__py",
+					"jsonFile" : "directory-robot_state_pub_interface__py-6c1a2e7bc7bae740bd95.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/lzy/ros2/ros2_study/build/robot_state_pub_interface/robot_state_pub_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "robot_state_pub_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_robot_state_pub_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_robot_state_pub_interface_egg-2283eda88e60a6b5337b.json",
+					"name" : "ament_cmake_python_build_robot_state_pub_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_robot_state_pub_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_robot_state_pub_interface-227cb8c759f3f8fc1a68.json",
+					"name" : "ament_cmake_python_copy_robot_state_pub_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_state_pub_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_state_pub_interface-5733cfbe15b00af8f111.json",
+					"name" : "robot_state_pub_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_state_pub_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_state_pub_interface__cpp-0cb9a74becb97d24b958.json",
+					"name" : "robot_state_pub_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "robot_state_pub_interface__py::@f42ceebd962c7bca7e06",
+					"jsonFile" : "target-robot_state_pub_interface__py-46738f0c682eda36a581.json",
+					"name" : "robot_state_pub_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_state_pub_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_state_pub_interface__rosidl_generator_c-cd51fe3d7064cbaf094b.json",
+					"name" : "robot_state_pub_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_state_pub_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_state_pub_interface__rosidl_generator_py-0055b45919429c09307f.json",
+					"name" : "robot_state_pub_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_state_pub_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_state_pub_interface__rosidl_typesupport_c-fe48c2a52f7a49a2981c.json",
+					"name" : "robot_state_pub_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_state_pub_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_state_pub_interface__rosidl_typesupport_c__pyext-43ff2b9635b2b8755290.json",
+					"name" : "robot_state_pub_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_state_pub_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_state_pub_interface__rosidl_typesupport_cpp-a4681eeb964522a54d87.json",
+					"name" : "robot_state_pub_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_state_pub_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_state_pub_interface__rosidl_typesupport_fastrtps_c-883d420a4a223f544ac0.json",
+					"name" : "robot_state_pub_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_state_pub_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_state_pub_interface__rosidl_typesupport_fastrtps_c__pyext-ed611485c035f54ee583.json",
+					"name" : "robot_state_pub_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_state_pub_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_state_pub_interface__rosidl_typesupport_fastrtps_cpp-de4429695a68040cce3a.json",
+					"name" : "robot_state_pub_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_state_pub_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_state_pub_interface__rosidl_typesupport_introspection_c-9684f5379032e4ad41db.json",
+					"name" : "robot_state_pub_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_state_pub_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_state_pub_interface__rosidl_typesupport_introspection_c__pyext-a9846bdf3faccae13c4e.json",
+					"name" : "robot_state_pub_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_state_pub_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_state_pub_interface__rosidl_typesupport_introspection_cpp-8c69dee9ea6b639420c1.json",
+					"name" : "robot_state_pub_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_state_pub_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_state_pub_interface_uninstall-222cb8d4915e46d31162.json",
+					"name" : "robot_state_pub_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-29c7622a666e8196885d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lzy/ros2/ros2_study/build/robot_state_pub_interface",
+		"source" : "/home/lzy/ros2/ros2_study/src/robot_state_pub_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

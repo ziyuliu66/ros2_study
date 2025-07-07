@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lzy/ros2_study/balance_car_ws/src/robot_state_pub_interface
+CMAKE_SOURCE_DIR = /home/lzy/ros2/ros2_study/src/robot_state_pub_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface
+CMAKE_BINARY_DIR = /home/lzy/ros2/ros2_study/build/robot_state_pub_interface
 
 # Utility rule file for ament_cmake_python_copy_robot_state_pub_interface.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_robot_state_pub_interface.dir/compile
 include CMakeFiles/ament_cmake_python_copy_robot_state_pub_interface.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_robot_state_pub_interface:
-	/usr/bin/cmake -E copy_directory /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface/rosidl_generator_py/robot_state_pub_interface /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface/ament_cmake_python/robot_state_pub_interface/robot_state_pub_interface
+	/usr/bin/cmake -E copy_directory /home/lzy/ros2/ros2_study/build/robot_state_pub_interface/rosidl_generator_py/robot_state_pub_interface /home/lzy/ros2/ros2_study/build/robot_state_pub_interface/ament_cmake_python/robot_state_pub_interface/robot_state_pub_interface
 
 ament_cmake_python_copy_robot_state_pub_interface: CMakeFiles/ament_cmake_python_copy_robot_state_pub_interface
 ament_cmake_python_copy_robot_state_pub_interface: CMakeFiles/ament_cmake_python_copy_robot_state_pub_interface.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_robot_state_pub_interface.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_robot_state_pub_interface.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_robot_state_pub_interface.dir/depend:
-	cd /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lzy/ros2_study/balance_car_ws/src/robot_state_pub_interface /home/lzy/ros2_study/balance_car_ws/src/robot_state_pub_interface /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface/CMakeFiles/ament_cmake_python_copy_robot_state_pub_interface.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lzy/ros2/ros2_study/build/robot_state_pub_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lzy/ros2/ros2_study/src/robot_state_pub_interface /home/lzy/ros2/ros2_study/src/robot_state_pub_interface /home/lzy/ros2/ros2_study/build/robot_state_pub_interface /home/lzy/ros2/ros2_study/build/robot_state_pub_interface /home/lzy/ros2/ros2_study/build/robot_state_pub_interface/CMakeFiles/ament_cmake_python_copy_robot_state_pub_interface.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_robot_state_pub_interface.dir/depend
 

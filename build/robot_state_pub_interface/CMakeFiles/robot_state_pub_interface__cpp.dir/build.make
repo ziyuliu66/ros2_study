@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lzy/ros2_study/balance_car_ws/src/robot_state_pub_interface
+CMAKE_SOURCE_DIR = /home/lzy/ros2/ros2_study/src/robot_state_pub_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface
+CMAKE_BINARY_DIR = /home/lzy/ros2/ros2_study/build/robot_state_pub_interface
 
 # Utility rule file for robot_state_pub_interface__cpp.
 
@@ -121,8 +121,8 @@ rosidl_generator_cpp/robot_state_pub_interface/msg/robot_state.hpp: /opt/ros/hum
 rosidl_generator_cpp/robot_state_pub_interface/msg/robot_state.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_cpp/robot_state_pub_interface/msg/robot_state.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/robot_state_pub_interface/msg/robot_state.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lzy/ros2/ros2_study/build/robot_state_pub_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/lzy/ros2/ros2_study/build/robot_state_pub_interface/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/robot_state_pub_interface/msg/detail/robot_state__builder.hpp: rosidl_generator_cpp/robot_state_pub_interface/msg/robot_state.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/robot_state_pub_interface/msg/detail/robot_state__builder.hpp
@@ -154,6 +154,6 @@ CMakeFiles/robot_state_pub_interface__cpp.dir/clean:
 .PHONY : CMakeFiles/robot_state_pub_interface__cpp.dir/clean
 
 CMakeFiles/robot_state_pub_interface__cpp.dir/depend:
-	cd /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lzy/ros2_study/balance_car_ws/src/robot_state_pub_interface /home/lzy/ros2_study/balance_car_ws/src/robot_state_pub_interface /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface /home/lzy/ros2_study/balance_car_ws/build/robot_state_pub_interface/CMakeFiles/robot_state_pub_interface__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lzy/ros2/ros2_study/build/robot_state_pub_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lzy/ros2/ros2_study/src/robot_state_pub_interface /home/lzy/ros2/ros2_study/src/robot_state_pub_interface /home/lzy/ros2/ros2_study/build/robot_state_pub_interface /home/lzy/ros2/ros2_study/build/robot_state_pub_interface /home/lzy/ros2/ros2_study/build/robot_state_pub_interface/CMakeFiles/robot_state_pub_interface__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robot_state_pub_interface__cpp.dir/depend
 

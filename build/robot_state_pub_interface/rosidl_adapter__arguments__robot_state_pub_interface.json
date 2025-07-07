@@ -1,6 +1,6 @@
 {
   "package_name": "robot_state_pub_interface",
   "non_idl_tuples": [
-    "/home/lzy/ros2_study/balance_car_ws/src/robot_state_pub_interface:msg/RobotState.msg"
+    "/home/lzy/ros2/ros2_study/src/robot_state_pub_interface:msg/RobotState.msg"
   ]
 }

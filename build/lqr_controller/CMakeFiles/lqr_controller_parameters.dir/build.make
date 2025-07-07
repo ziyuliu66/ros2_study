@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lzy/ros2_study/balance_car_ws/src/lqr_controller
+CMAKE_SOURCE_DIR = /home/lzy/ros2/ros2_study/src/lqr_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lzy/ros2_study/balance_car_ws/build/lqr_controller
+CMAKE_BINARY_DIR = /home/lzy/ros2/ros2_study/build/lqr_controller
 
 # Utility rule file for lqr_controller_parameters.
 
@@ -66,17 +66,14 @@ include CMakeFiles/lqr_controller_parameters.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/lqr_controller_parameters.dir/progress.make
 
-include/lqr_controller/lqr_controller_parameters.hpp: /home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.yaml
+include/lqr_controller/lqr_controller_parameters.hpp: /home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.yaml
 include/lqr_controller/lqr_controller_parameters.hpp: include/lqr_controller/validate_lqr_controller_parameters.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running \`/opt/ros/humble/bin/generate_parameter_library_cpp /home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller/lqr_controller_parameters.hpp /home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.yaml validate_lqr_controller_parameters.hpp\`"
-	/opt/ros/humble/bin/generate_parameter_library_cpp /home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller/lqr_controller_parameters.hpp /home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.yaml validate_lqr_controller_parameters.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lzy/ros2/ros2_study/build/lqr_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running \`/opt/ros/humble/bin/generate_parameter_library_cpp /home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller/lqr_controller_parameters.hpp /home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.yaml validate_lqr_controller_parameters.hpp\`"
+	/opt/ros/humble/bin/generate_parameter_library_cpp /home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller/lqr_controller_parameters.hpp /home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.yaml validate_lqr_controller_parameters.hpp
 
 include/lqr_controller_parameters.hpp: include/lqr_controller/lqr_controller_parameters.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lzy/ros2_study/balance_car_ws/build/lqr_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Creating deprecated header file /home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp"
-	/usr/bin/cmake -E echo "#pragma message(\"#include \\\"lqr_controller_parameters.hpp\\\" is deprecated. Use #include <lqr_controller/lqr_controller_parameters.hpp> instead.\")" >> /home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp
-	/usr/bin/cmake -E cat /home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp /home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller/lqr_controller_parameters.hpp > /home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp.tmp
-	/usr/bin/cmake -E copy /home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp.tmp /home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp
-	/usr/bin/cmake -E remove /home/lzy/ros2_study/balance_car_ws/build/lqr_controller/include/lqr_controller_parameters.hpp.tmp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lzy/ros2/ros2_study/build/lqr_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Creating deprecated header file /home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller_parameters.hpp"
+	/usr/bin/cmake -E cat /home/lzy/ros2/ros2_study/build/lqr_controller/lqr_controller_parameters_pragma_warning /home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller/lqr_controller_parameters.hpp > /home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller_parameters.hpp
 
 lqr_controller_parameters: include/lqr_controller/lqr_controller_parameters.hpp
 lqr_controller_parameters: include/lqr_controller_parameters.hpp
@@ -92,6 +89,6 @@ CMakeFiles/lqr_controller_parameters.dir/clean:
 .PHONY : CMakeFiles/lqr_controller_parameters.dir/clean
 
 CMakeFiles/lqr_controller_parameters.dir/depend:
-	cd /home/lzy/ros2_study/balance_car_ws/build/lqr_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lzy/ros2_study/balance_car_ws/src/lqr_controller /home/lzy/ros2_study/balance_car_ws/src/lqr_controller /home/lzy/ros2_study/balance_car_ws/build/lqr_controller /home/lzy/ros2_study/balance_car_ws/build/lqr_controller /home/lzy/ros2_study/balance_car_ws/build/lqr_controller/CMakeFiles/lqr_controller_parameters.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lzy/ros2/ros2_study/build/lqr_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lzy/ros2/ros2_study/src/lqr_controller /home/lzy/ros2/ros2_study/src/lqr_controller /home/lzy/ros2/ros2_study/build/lqr_controller /home/lzy/ros2/ros2_study/build/lqr_controller /home/lzy/ros2/ros2_study/build/lqr_controller/CMakeFiles/lqr_controller_parameters.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lqr_controller_parameters.dir/depend
 

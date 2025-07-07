@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/lzy/ros2/ros2_study/build/robot_state_pub_interface/robot_state_pub_interface__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "robot_state_pub_interface::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "robot_state_pub_interface__py::@f42ceebd962c7bca7e06",
+	"name" : "robot_state_pub_interface__py",
+	"paths" : 
+	{
+		"build" : "robot_state_pub_interface__py",
+		"source" : "/home/lzy/ros2/ros2_study/build/robot_state_pub_interface/robot_state_pub_interface__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/lzy/ros2/ros2_study/build/robot_state_pub_interface/robot_state_pub_interface__py/CMakeFiles/robot_state_pub_interface__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/lzy/ros2/ros2_study/build/robot_state_pub_interface/robot_state_pub_interface__py/CMakeFiles/robot_state_pub_interface__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/lzy/ros2/ros2_study/build/robot_state_pub_interface/rosidl_generator_py/robot_state_pub_interface/_robot_state_pub_interface_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

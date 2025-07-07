@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lzy/ros2_study/balance_car_ws/src/lqr_controller
+CMAKE_SOURCE_DIR = /home/lzy/ros2/ros2_study/src/lqr_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lzy/ros2_study/balance_car_ws/build/lqr_controller
+CMAKE_BINARY_DIR = /home/lzy/ros2/ros2_study/build/lqr_controller
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/lzy/ros2_study/balance_car_ws/build/lqr_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lzy/ros2_study/balance_car_ws/src/lqr_controller /home/lzy/ros2_study/balance_car_ws/src/lqr_controller /home/lzy/ros2_study/balance_car_ws/build/lqr_controller /home/lzy/ros2_study/balance_car_ws/build/lqr_controller /home/lzy/ros2_study/balance_car_ws/build/lqr_controller/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lzy/ros2/ros2_study/build/lqr_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lzy/ros2/ros2_study/src/lqr_controller /home/lzy/ros2/ros2_study/src/lqr_controller /home/lzy/ros2/ros2_study/build/lqr_controller /home/lzy/ros2/ros2_study/build/lqr_controller /home/lzy/ros2/ros2_study/build/lqr_controller/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

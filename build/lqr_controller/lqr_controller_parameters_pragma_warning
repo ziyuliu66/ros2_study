@@ -1,0 +1,1 @@
+#pragma message("#include \"lqr_controller_parameters.hpp\" is deprecated. Use #include <lqr_controller/lqr_controller_parameters.hpp> instead.")

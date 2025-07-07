@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ff4bdf5152085cfdac77.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lqr_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lqr_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lqr_controller-e2c4e5b7f9e5faa549f7.json",
+					"name" : "lqr_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lqr_controller_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lqr_controller_parameters-88dc192da398f69dcac0.json",
+					"name" : "lqr_controller_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lqr_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lqr_controller_uninstall-b2e85f45db1075bc7d53.json",
+					"name" : "lqr_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0ac20c14e7e0084684d5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lzy/ros2/ros2_study/build/lqr_controller",
+		"source" : "/home/lzy/ros2/ros2_study/src/lqr_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

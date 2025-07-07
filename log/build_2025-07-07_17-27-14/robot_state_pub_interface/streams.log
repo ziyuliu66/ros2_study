@@ -1,0 +1,155 @@
+[0.012s] Invoking command in '/home/lzy/ros2/ros2_study/build/robot_state_pub_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lzy/ros2/ros2_study/build/robot_state_pub_interface -- -j4 -l4
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target robot_state_pub_interface__rosidl_generator_c[0m
+[0.091s] [  3%] Built target robot_state_pub_interface__cpp
+[0.091s] [ 12%] Built target robot_state_pub_interface__rosidl_generator_c
+[0.103s] [35m[1mConsolidate compiler generated dependencies of target robot_state_pub_interface__rosidl_typesupport_introspection_c[0m
+[0.103s] [ 12%] Built target ament_cmake_python_copy_robot_state_pub_interface
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target robot_state_pub_interface__rosidl_typesupport_fastrtps_cpp[0m
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target robot_state_pub_interface__rosidl_typesupport_cpp[0m
+[0.113s] [ 22%] Built target robot_state_pub_interface__rosidl_typesupport_introspection_c
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target robot_state_pub_interface__rosidl_typesupport_c[0m
+[0.125s] [ 32%] Built target robot_state_pub_interface__rosidl_typesupport_fastrtps_cpp
+[0.132s] [ 41%] Built target robot_state_pub_interface__rosidl_typesupport_c
+[0.132s] [35m[1mConsolidate compiler generated dependencies of target robot_state_pub_interface__rosidl_typesupport_introspection_cpp[0m
+[0.133s] [ 51%] Built target robot_state_pub_interface__rosidl_typesupport_cpp
+[0.145s] [35m[1mConsolidate compiler generated dependencies of target robot_state_pub_interface__rosidl_typesupport_fastrtps_c[0m
+[0.147s] [ 61%] Built target robot_state_pub_interface__rosidl_typesupport_introspection_cpp
+[0.158s] [ 70%] Built target robot_state_pub_interface__rosidl_typesupport_fastrtps_c
+[0.180s] [ 70%] Built target robot_state_pub_interface
+[0.202s] [ 74%] Built target robot_state_pub_interface__py
+[0.212s] [35m[1mConsolidate compiler generated dependencies of target robot_state_pub_interface__rosidl_generator_py[0m
+[0.229s] [ 80%] Built target robot_state_pub_interface__rosidl_generator_py
+[0.245s] [35m[1mConsolidate compiler generated dependencies of target robot_state_pub_interface__rosidl_typesupport_introspection_c__pyext[0m
+[0.247s] [35m[1mConsolidate compiler generated dependencies of target robot_state_pub_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target robot_state_pub_interface__rosidl_typesupport_c__pyext[0m
+[0.262s] [ 87%] Built target robot_state_pub_interface__rosidl_typesupport_introspection_c__pyext
+[0.271s] [ 93%] Built target robot_state_pub_interface__rosidl_typesupport_c__pyext
+[0.271s] [100%] Built target robot_state_pub_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.291s] running egg_info
+[0.291s] writing robot_state_pub_interface.egg-info/PKG-INFO
+[0.292s] writing dependency_links to robot_state_pub_interface.egg-info/dependency_links.txt
+[0.292s] writing top-level names to robot_state_pub_interface.egg-info/top_level.txt
+[0.294s] reading manifest file 'robot_state_pub_interface.egg-info/SOURCES.txt'
+[0.295s] writing manifest file 'robot_state_pub_interface.egg-info/SOURCES.txt'
+[0.319s] [100%] Built target ament_cmake_python_build_robot_state_pub_interface_egg
+[0.329s] Invoked command in '/home/lzy/ros2/ros2_study/build/robot_state_pub_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lzy/ros2/ros2_study/build/robot_state_pub_interface -- -j4 -l4
+[0.339s] Invoking command in '/home/lzy/ros2/ros2_study/build/robot_state_pub_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lzy/ros2/ros2_study/build/robot_state_pub_interface
+[0.345s] -- Install configuration: ""
+[0.346s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/ament_index/resource_index/rosidl_interfaces/robot_state_pub_interface
+[0.346s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface
+[0.346s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg
+[0.346s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail
+[0.346s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__functions.c
+[0.346s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__functions.h
+[0.346s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__type_support.h
+[0.346s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__struct.h
+[0.346s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/rosidl_generator_c__visibility_control.h
+[0.346s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/robot_state.h
+[0.346s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/environment/library_path.sh
+[0.346s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/environment/library_path.dsv
+[0.346s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_generator_c.so
+[0.347s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface
+[0.347s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__rosidl_typesupport_fastrtps_c.h
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_typesupport_fastrtps_c.so
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/robot_state.hpp
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__struct.hpp
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__builder.hpp
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__type_support.hpp
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__traits.hpp
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/dds_fastrtps
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_typesupport_fastrtps_cpp.so
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__type_support.c
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__rosidl_typesupport_introspection_c.h
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.348s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_typesupport_introspection_c.so
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_typesupport_c.so
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__type_support.cpp
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/include/robot_state_pub_interface/robot_state_pub_interface/msg/detail/robot_state__rosidl_typesupport_introspection_cpp.hpp
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_typesupport_introspection_cpp.so
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_typesupport_cpp.so
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/environment/pythonpath.sh
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/environment/pythonpath.dsv
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface-0.0.0-py3.10.egg-info
+[0.349s] -- Installing: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.349s] -- Installing: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.349s] -- Installing: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface-0.0.0-py3.10.egg-info/top_level.txt
+[0.349s] -- Installing: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/robot_state_pub_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/_robot_state_pub_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/librobot_state_pub_interface__rosidl_generator_py.so
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/__init__.py
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/msg
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/msg/_robot_state.py
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/msg/__init__.py
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/msg/_robot_state_s.c
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/_robot_state_pub_interface_s.ep.rosidl_typesupport_c.c
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/_robot_state_pub_interface_s.ep.rosidl_typesupport_introspection_c.c
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/robot_state_pub_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.349s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/robot_state_pub_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.369s] Listing '/home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface'...
+[0.369s] Listing '/home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/msg'...
+[0.371s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/robot_state_pub_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.372s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/robot_state_pub_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.373s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/local/lib/python3.10/dist-packages/robot_state_pub_interface/robot_state_pub_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.373s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/lib/librobot_state_pub_interface__rosidl_generator_py.so
+[0.373s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/msg/RobotState.idl
+[0.373s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/msg/RobotState.msg
+[0.373s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/ament_index/resource_index/package_run_dependencies/robot_state_pub_interface
+[0.373s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/ament_index/resource_index/parent_prefix_path/robot_state_pub_interface
+[0.373s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/environment/ament_prefix_path.sh
+[0.373s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/environment/ament_prefix_path.dsv
+[0.373s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/environment/path.sh
+[0.373s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/environment/path.dsv
+[0.373s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/local_setup.bash
+[0.374s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/local_setup.sh
+[0.374s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/local_setup.zsh
+[0.374s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/local_setup.dsv
+[0.374s] -- Installing: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/package.dsv
+[0.374s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/ament_index/resource_index/packages/robot_state_pub_interface
+[0.374s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/export_robot_state_pub_interface__rosidl_generator_cExport.cmake
+[0.374s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/export_robot_state_pub_interface__rosidl_generator_cExport-noconfig.cmake
+[0.374s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/export_robot_state_pub_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[0.374s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/export_robot_state_pub_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.375s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/export_robot_state_pub_interface__rosidl_generator_cppExport.cmake
+[0.375s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/export_robot_state_pub_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.375s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/export_robot_state_pub_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.375s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interface__rosidl_typesupport_introspection_cExport.cmake
+[0.375s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.375s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interface__rosidl_typesupport_cExport.cmake
+[0.376s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interface__rosidl_typesupport_cExport-noconfig.cmake
+[0.376s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interface__rosidl_typesupport_introspection_cppExport.cmake
+[0.376s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.376s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interface__rosidl_typesupport_cppExport.cmake
+[0.376s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[0.376s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/export_robot_state_pub_interface__rosidl_generator_pyExport.cmake
+[0.376s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/export_robot_state_pub_interface__rosidl_generator_pyExport-noconfig.cmake
+[0.376s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/rosidl_cmake-extras.cmake
+[0.376s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.376s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.376s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.376s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/ament_cmake_export_targets-extras.cmake
+[0.376s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.376s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.376s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interfaceConfig.cmake
+[0.376s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake/robot_state_pub_interfaceConfig-version.cmake
+[0.376s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/package.xml
+[0.377s] Invoked command in '/home/lzy/ros2/ros2_study/build/robot_state_pub_interface' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lzy/ros2/ros2_study/build/robot_state_pub_interface

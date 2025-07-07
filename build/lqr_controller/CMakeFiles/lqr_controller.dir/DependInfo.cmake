@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/lzy/ros2_study/balance_car_ws/src/lqr_controller/src/lqr_controller.cpp" "CMakeFiles/lqr_controller.dir/src/lqr_controller.cpp.o" "gcc" "CMakeFiles/lqr_controller.dir/src/lqr_controller.cpp.o.d"
+  "/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp" "CMakeFiles/lqr_controller.dir/src/lqr_controller.cpp.o" "gcc" "CMakeFiles/lqr_controller.dir/src/lqr_controller.cpp.o.d"
   )
 
 # Targets to which this target links.

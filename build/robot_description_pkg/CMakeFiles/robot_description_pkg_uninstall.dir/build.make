@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lzy/ros2_study/balance_car_ws/src/robot_description_pkg
+CMAKE_SOURCE_DIR = /home/lzy/ros2/ros2_study/src/robot_description_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg
+CMAKE_BINARY_DIR = /home/lzy/ros2/ros2_study/build/robot_description_pkg
 
 # Utility rule file for robot_description_pkg_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/robot_description_pkg_uninstall.dir/compiler_depend.make
 include CMakeFiles/robot_description_pkg_uninstall.dir/progress.make
 
 CMakeFiles/robot_description_pkg_uninstall:
-	/usr/bin/cmake -P /home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/lzy/ros2/ros2_study/build/robot_description_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 robot_description_pkg_uninstall: CMakeFiles/robot_description_pkg_uninstall
 robot_description_pkg_uninstall: CMakeFiles/robot_description_pkg_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/robot_description_pkg_uninstall.dir/clean:
 .PHONY : CMakeFiles/robot_description_pkg_uninstall.dir/clean
 
 CMakeFiles/robot_description_pkg_uninstall.dir/depend:
-	cd /home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lzy/ros2_study/balance_car_ws/src/robot_description_pkg /home/lzy/ros2_study/balance_car_ws/src/robot_description_pkg /home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg /home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg /home/lzy/ros2_study/balance_car_ws/build/robot_description_pkg/CMakeFiles/robot_description_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lzy/ros2/ros2_study/build/robot_description_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lzy/ros2/ros2_study/src/robot_description_pkg /home/lzy/ros2/ros2_study/src/robot_description_pkg /home/lzy/ros2/ros2_study/build/robot_description_pkg /home/lzy/ros2/ros2_study/build/robot_description_pkg /home/lzy/ros2/ros2_study/build/robot_description_pkg/CMakeFiles/robot_description_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robot_description_pkg_uninstall.dir/depend
 
