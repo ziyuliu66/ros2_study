@@ -1,3 +1,0 @@
-[ 50%] Built target lqr_controller_parameters
-[35m[1mConsolidate compiler generated dependencies of target lqr_controller[0m
-[ 75%] [32mBuilding CXX object CMakeFiles/lqr_controller.dir/src/lqr_controller.cpp.o[0m
