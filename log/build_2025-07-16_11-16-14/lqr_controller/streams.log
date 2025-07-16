@@ -1,0 +1,151 @@
+[0.008s] Invoking command in '/home/lzy/ros2/ros2_study/build/lqr_controller': CMAKE_PREFIX_PATH=/home/lzy/ros2/ros2_study/install/robot_state_pub_interface:/home/lzy/ros2/ros2_study/install/robot_description_pkg:/home/lzy/ros2/ros2_study/install/lqr_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2/ros2_study/install/robot_state_pub_interface/lib:/home/lzy/ros2/ros2_study/install/lqr_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/lzy/ros2/ros2_study/src/lqr_controller -DCMAKE_INSTALL_PREFIX=/home/lzy/ros2/ros2_study/install/lqr_controller
+[0.055s] -- The C compiler identification is GNU 11.4.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.098s] -- Detecting C compiler ABI info
+[0.155s] -- Detecting C compiler ABI info - done
+[0.159s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.159s] -- Detecting C compile features
+[0.159s] -- Detecting C compile features - done
+[0.161s] -- Detecting CXX compiler ABI info
+[0.223s] -- Detecting CXX compiler ABI info - done
+[0.226s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.226s] -- Detecting CXX compile features
+[0.227s] -- Detecting CXX compile features - done
+[0.228s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.329s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.391s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[0.398s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.434s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.436s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.440s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.446s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.455s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.506s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.509s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.619s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.643s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.678s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.690s] -- Looking for pthread.h
+[0.755s] -- Looking for pthread.h - found
+[0.756s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.825s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.826s] -- Found Threads: TRUE  
+[0.902s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.923s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[0.926s] -- Found controller_manager: 2.51.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.117s] -- Found ros2_control_test_assets: 2.51.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[1.123s] -- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)
+[1.128s] -- Found tf2_geometry_msgs: 0.25.13 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.135s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.137s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.137s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.197s] -- Found robot_state_pub_interface: 0.0.0 (/home/lzy/ros2/ros2_study/install/robot_state_pub_interface/share/robot_state_pub_interface/cmake)
+[1.207s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.268s] -- Configuring done
+[1.311s] -- Generating done
+[1.314s] -- Build files have been written to: /home/lzy/ros2/ros2_study/build/lqr_controller
+[1.324s] Invoked command in '/home/lzy/ros2/ros2_study/build/lqr_controller' returned '0': CMAKE_PREFIX_PATH=/home/lzy/ros2/ros2_study/install/robot_state_pub_interface:/home/lzy/ros2/ros2_study/install/robot_description_pkg:/home/lzy/ros2/ros2_study/install/lqr_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2/ros2_study/install/robot_state_pub_interface/lib:/home/lzy/ros2/ros2_study/install/lqr_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/lzy/ros2/ros2_study/src/lqr_controller -DCMAKE_INSTALL_PREFIX=/home/lzy/ros2/ros2_study/install/lqr_controller
+[1.324s] Invoking command in '/home/lzy/ros2/ros2_study/build/lqr_controller': CMAKE_PREFIX_PATH=/home/lzy/ros2/ros2_study/install/robot_state_pub_interface:/home/lzy/ros2/ros2_study/install/robot_description_pkg:/home/lzy/ros2/ros2_study/install/lqr_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2/ros2_study/install/robot_state_pub_interface/lib:/home/lzy/ros2/ros2_study/install/lqr_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lzy/ros2/ros2_study/build/lqr_controller -- -j4 -l4
+[1.368s] [ 25%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller/lqr_controller_parameters.hpp /home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.yaml validate_lqr_controller_parameters.hpp`[0m
+[1.496s] [ 50%] [34m[1mCreating deprecated header file /home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller_parameters.hpp[0m
+[1.513s] [ 50%] Built target lqr_controller_parameters
+[1.530s] [ 75%] [32mBuilding CXX object CMakeFiles/lqr_controller.dir/src/lqr_controller.cpp.o[0m
+[3.254s] In file included from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+[3.254s]                  from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[3.254s] [01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller_parameters.hpp:1:145:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "lqr_controller_parameters.hpp" is deprecated. Use #include <lqr_controller/lqr_controller_parameters.hpp> instead.[m[K’
+[3.254s]     1 | de \"lqr_controller_parameters.hpp\" is deprecated. Use #include <lqr_controller/lqr_controller_parameters.hpp> instead."[01;36m[K)[m[K
+[3.254s]       |                                                                                                                          [01;36m[K^[m[K
+[3.254s] 
+[3.302s] In file included from [01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller_parameters.hpp:31[m[K,
+[3.302s]                  from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+[3.302s]                  from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[3.302s] [01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/validate_lqr_controller_parameters.hpp:29:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing Result = class tl::expected<void, std::__cxx11::basic_string<char> >[m[K’ is deprecated: Use tl::expected<void, std::string> for return instead. `#include <tl_expected/expected.hpp>`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.302s]    29 | Result forbidden_interface_name_prefix(rclcpp::Parameter const & parameter[01;35m[K)[m[K
+[3.302s]       |                                                                           [01;35m[K^[m[K
+[3.302s] In file included from [01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller_parameters.hpp:25[m[K,
+[3.302s]                  from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+[3.302s]                  from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[3.302s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:37:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.302s]    37 | using [01;36m[KResult[m[K
+[3.302s]       |       [01;36m[K^~~~~~[m[K
+[3.303s] In file included from [01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller_parameters.hpp:31[m[K,
+[3.303s]                  from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+[3.303s]                  from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[3.303s] [01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/validate_lqr_controller_parameters.hpp:[m[K In function ‘[01m[Kparameter_traits::Result parameter_traits::forbidden_interface_name_prefix(const rclcpp::Parameter&)[m[K’:
+[3.303s] [01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/validate_lqr_controller_parameters.hpp:35:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktl::expected<void, std::__cxx11::basic_string<char> > parameter_traits::ERROR(const string&, Args ...) [with Args = {}; std::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: When returning tl::expected<void, std::string> you can call fmt::format directly. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.303s]    35 |     return [01;35m[KERROR("'interface_name' parameter can not start with 'blup_'")[m[K;
+[3.303s]       |            [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.303s] In file included from [01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller_parameters.hpp:25[m[K,
+[3.303s]                  from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+[3.303s]                  from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[3.303s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:46:1:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.303s]    46 | [01;36m[KERROR[m[K(const std::string& format, Args... args)
+[3.303s]       | [01;36m[K^~~~~[m[K
+[3.303s] In file included from [01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller_parameters.hpp:31[m[K,
+[3.303s]                  from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+[3.303s]                  from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[3.303s] [01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/validate_lqr_controller_parameters.hpp:38:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kparameter_traits::OK[m[K’ is deprecated: When returning tl::expected<void, std::string> default construct for OK with `{}`. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.303s]    38 |   return [01;35m[KOK[m[K;
+[3.303s]       |          [01;35m[K^~[m[K
+[3.303s] In file included from [01m[K/home/lzy/ros2/ros2_study/build/lqr_controller/include/lqr_controller_parameters.hpp:25[m[K,
+[3.303s]                  from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:28[m[K,
+[3.303s]                  from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[3.303s] [01m[K/opt/ros/humble/include/parameter_traits/parameter_traits/parameter_traits.hpp:51:13:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.303s]    51 | auto static [01;36m[KOK[m[K
+[3.303s]       |             [01;36m[K^~[m[K
+[3.316s] In file included from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:32[m[K,
+[3.316s]                  from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[3.316s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:[m[K At global scope:
+[3.316s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[3.316s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[3.316s]       |                                                                                                    [01;36m[K^[m[K
+[3.316s] In file included from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/include/lqr_controller/lqr_controller.hpp:33[m[K,
+[3.317s]                  from [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:20[m[K:
+[3.317s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+[3.317s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+[3.317s]       |                                                                                                       [01;36m[K^[m[K
+[3.499s] [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type lqr_controller::LqrController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.499s] [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:278:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcurrent_ref[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.499s]   278 |   auto [01;35m[Kcurrent_ref[m[K = input_ref_.readFromRT();
+[3.499s]       |        [01;35m[K^~~~~~~~~~~[m[K
+[3.499s] [01m[K/home/lzy/ros2/ros2_study/src/lqr_controller/src/lqr_controller.cpp:276:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.499s]   276 |   [01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & /*period*/)
+[3.499s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[13.799s] [100%] [32m[1mLinking CXX shared library liblqr_controller.so[0m
+[14.661s] [100%] Built target lqr_controller
+[14.680s] Invoked command in '/home/lzy/ros2/ros2_study/build/lqr_controller' returned '0': CMAKE_PREFIX_PATH=/home/lzy/ros2/ros2_study/install/robot_state_pub_interface:/home/lzy/ros2/ros2_study/install/robot_description_pkg:/home/lzy/ros2/ros2_study/install/lqr_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2/ros2_study/install/robot_state_pub_interface/lib:/home/lzy/ros2/ros2_study/install/lqr_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lzy/ros2/ros2_study/build/lqr_controller -- -j4 -l4
+[14.681s] Invoking command in '/home/lzy/ros2/ros2_study/build/lqr_controller': CMAKE_PREFIX_PATH=/home/lzy/ros2/ros2_study/install/robot_state_pub_interface:/home/lzy/ros2/ros2_study/install/robot_description_pkg:/home/lzy/ros2/ros2_study/install/lqr_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2/ros2_study/install/robot_state_pub_interface/lib:/home/lzy/ros2/ros2_study/install/lqr_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lzy/ros2/ros2_study/build/lqr_controller
+[14.688s] -- Install configuration: ""
+[14.688s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/include/lqr_controller
+[14.688s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/include/lqr_controller/validate_lqr_controller_parameters.hpp
+[14.688s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/include/lqr_controller/lqr_controller_parameters.hpp
+[14.688s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/lqr_controller/lqr_controller.xml
+[14.688s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/lib/liblqr_controller.so
+[14.698s] -- Set runtime path of "/home/lzy/ros2/ros2_study/install/lqr_controller/lib/liblqr_controller.so" to ""
+[14.698s] -- Up-to-date: /home/lzy/ros2/ros2_study/install/lqr_controller/include/lqr_controller
+[14.698s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/include/lqr_controller/lqr_controller
+[14.698s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/include/lqr_controller/lqr_controller/validate_lqr_controller_parameters.hpp
+[14.698s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/include/lqr_controller/lqr_controller/visibility_control.h
+[14.698s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/include/lqr_controller/lqr_controller/lqr_controller.hpp
+[14.698s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/lqr_controller/environment/library_path.sh
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/lqr_controller/environment/library_path.dsv
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/ament_index/resource_index/package_run_dependencies/lqr_controller
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/ament_index/resource_index/parent_prefix_path/lqr_controller
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/lqr_controller/environment/ament_prefix_path.sh
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/lqr_controller/environment/ament_prefix_path.dsv
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/lqr_controller/environment/path.sh
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/lqr_controller/environment/path.dsv
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/lqr_controller/local_setup.bash
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/lqr_controller/local_setup.sh
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/lqr_controller/local_setup.zsh
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/lqr_controller/local_setup.dsv
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/lqr_controller/package.dsv
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/ament_index/resource_index/packages/lqr_controller
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/lqr_controller
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/lqr_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/lqr_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/lqr_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/lqr_controller/cmake/lqr_controllerConfig.cmake
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/lqr_controller/cmake/lqr_controllerConfig-version.cmake
+[14.699s] -- Installing: /home/lzy/ros2/ros2_study/install/lqr_controller/share/lqr_controller/package.xml
+[14.702s] Invoked command in '/home/lzy/ros2/ros2_study/build/lqr_controller' returned '0': CMAKE_PREFIX_PATH=/home/lzy/ros2/ros2_study/install/robot_state_pub_interface:/home/lzy/ros2/ros2_study/install/robot_description_pkg:/home/lzy/ros2/ros2_study/install/lqr_controller:/opt/ros/humble LD_LIBRARY_PATH=/home/lzy/ros2/ros2_study/install/robot_state_pub_interface/lib:/home/lzy/ros2/ros2_study/install/lqr_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lzy/ros2/ros2_study/build/lqr_controller
