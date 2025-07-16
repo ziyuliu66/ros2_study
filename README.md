@@ -1,3 +1,5 @@
+
+![](./assets/balanced_car.png)
 > [!NOTE]
 >**1**
 > **该项目环境为 `ubuntu 22.04 + ROS2 humble`**
